@@ -9,9 +9,20 @@ footer {
 
 header {
     display: flex;
-    justify-content: space-around;
+    justify-content: center;
 }
 
+h1 {
+    font-size: 50px;
+}
+
+header img {
+    padding: 10px;
+}
+
+.active {
+    background-color: rgb(1, 63, 63);
+}
 
 nav {
     background-color: rgb(1, 191, 191);
@@ -26,6 +37,10 @@ nav a {
     font-family: 'Nunito', serif;
     display: flex;
     justify-content: space-around;
+}
+
+#menu {
+    display: none;
 }
 
 a:hover {
@@ -43,10 +58,52 @@ main {
 
 figcaption {
     text-align: center;
+    font-family: "Nunito";
+    font-size: 20px;
 }
 
 section {
     border: 2px solid black;
+}
+
+#allButton,
+#cseButton,
+#wddButton {
+    flex: 1 1 auto;
+    font-size: 30px;
+    padding: 20px;
+    background-color: rgb(157, 14, 14);
+    color: lightgray;
+    border: 2px solid rgb(110, 10, 10);
+    font-family: "Nunito";
+    border-radius: 1rem;
+    margin: 10px;
+}
+
+#buttonArea {
+    display: flex;
+    padding: 20px;
+}
+
+#allButton:hover,
+#cseButton:hover,
+#wddButton:hover {
+    background-color: rgb(246, 26, 26);
+    border: 2px solid rgb(210, 22, 22);
+}
+
+.courseCard {
+    background-color: cyan;
+    font-family: "Architects Daughter";
+}
+
+.courseArea {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    text-align: center;
+    font-size: 25px;
+    grid-gap: 15px;
+    padding: 20px;
 }
 
 section h2 {
@@ -65,6 +122,12 @@ section h2 {
 .certificate {
     grid-column: 1 / 4;
     grid-row: 2 / 3;
+}
+
+.certificate p {
+    text-align: center;
+    font-size: 30px;
+    font-family: "Nunito";
 }
 
 footer {

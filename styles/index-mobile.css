@@ -1,0 +1,40 @@
+@media (max-width: 740px) {
+    nav a {
+        display: none;
+    }
+
+    nav {
+        display: flex;
+        flex-direction: column;
+        text-align: center;
+    }
+
+    #menu {
+        display: block;
+        font-family: "Nunito";
+        font-size: 50px;
+        background: none;
+        border: none;
+    }
+
+    #menu::before {
+        content: "≡";
+    }
+
+    #menu.open::before {
+        content: "X";
+    }
+
+    .open a {
+        display: block;
+        text-decoration: none;
+    }
+
+    main {
+        display: block;
+    }
+
+    .courseArea {
+        grid-template-columns: 1fr;
+    }
+}

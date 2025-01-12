@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Change Background Color</title>
+    <style>
+        .courseCard {
+            padding: 20px;
+            margin: 10px;
+            border: 1px solid black;
+        }
+    </style>
+</head>
+<body>
+    <div class="courseCard" id="course1">Course 1</div>
+    <div class="courseCard" id="course2">Course 2</div>
+    <div class="courseCard" id="course3">Course 3</div>
+
+    <script>
+        // Array of course objects
+        let courses = [
+            {id: "course1", status: "completed"},
+            {id: "course2", status: "in-progress"},
+            {id: "course3", status: "not-started"}
+        ];
+
+        // Iterate over each course and change background color based on status
+        for (let course of courses) {
+            let element = document.getElementById(course.id);
+            if (element) {
+                if (course.status === "completed") {
+                    element.style.backgroundColor = "green";
+                } else if (course.status === "in-progress") {
+                    element.style.backgroundColor = "yellow";
+                } else if (course.status === "not-started") {
+                    element.style.backgroundColor = "red";
+                }
+            }
+        }
+    </script>
+</body>
+</html>

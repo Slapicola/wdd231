@@ -9,9 +9,11 @@
     <meta name="author" content="Sophia Lapicola">
     <link rel="stylesheet" href="styles/normalize.css">
     <link rel="stylesheet" href="styles/index-destop.css">
+    <link rel="stylesheet" href="styles/index-mobile.css">
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Architects+Daughter&family=Nunito:ital,wght@0,200..1000;1,200..1000&display=swap" rel="stylesheet">
+    <script src="scripts/index.js" defer></script>
 </head>
 
 <body>
@@ -20,9 +22,9 @@
         <h1>Sophia E. Lapicola</h1>
     </header>
 
-
     <nav>
-        <a href="index.html">Home</a>
+        <button id="menu"></button>
+        <a href="index.html" class="active">Home</a>
         <a href="#">Chamber</a>
         <a href="#">GitHub Profile</a>
         <a href="www.linkedin.com/in/sophia-lapicola-a4558829b">LinkedIn</a>
@@ -47,12 +49,19 @@
         </section>
         <section class="certificate">
             <h2>Web and Computer Programming Certificate</h2>
+            <div id="buttonArea">
+                <button id="allButton" name="all">All</button>
+                <button id="cseButton" name="cse">CSE</button>
+                <button id="wddButton" name="wdd">WDD</button>
+            </div>
+            <div class="courseArea"></div>
+            <p>Credits Required: <span id="numCredits"></span></p>
         </section>
     </main>
 
 
     <footer>
-        <p>@ <span id="currentyear"></span> 🐾 Sophia Lapicola 🐾 USA</p>
+        <p>©️ <span id="currentyear"></span> 🐾 Sophia Lapicola 🐾 USA</p>
         <p id="lastModified"></p>
 
     </footer>
