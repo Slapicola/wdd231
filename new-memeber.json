@@ -1,0 +1,35 @@
+[
+    {
+        "familyName": "Liams",
+        "moveInDate": "October 12, 2022",
+        "numberOfMembers": 5,
+        "visitedByBishopric": false,
+        "familyMembers": [
+            {
+                "name": "Micheal",
+                "gender": "Male",
+                "birthdate": "May 2, 1978"
+            },
+            {
+                "name": "Kate",
+                "gender": "Female",
+                "birthdate": "July 18, 1980"
+            },
+            {
+                "name": "Ava",
+                "gender": "Female",
+                "birthdate": "August 6, 2007"
+            },
+            {
+                "name": "Jake",
+                "gender": "Male",
+                "birthdate": "November 20, 2015"
+            },
+            {
+                "name": "Cooper",
+                "gender": "Male",
+                "birthdate": "Febuary 10, 2019"
+            }
+        ] 
+    }
+]
