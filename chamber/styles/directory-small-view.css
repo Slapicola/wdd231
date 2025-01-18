@@ -1,0 +1,78 @@
+@import url('https://fonts.googleapis.com/css2?family=Markazi+Text:wght@400..700&family=Tinos&display=swap');
+@media (max-width: 320px){
+    header {
+        display: grid;
+        grid-template-columns: 75px auto 44px;
+        align-items: center;
+        padding-left: 5px;
+        padding-right: 5px;
+    }
+
+    header h1 {
+        font-size: 25px;
+    }
+
+    header img {
+        padding: 0;
+    }
+
+    nav {
+        display: flex;
+        flex-direction: column;
+        text-align: center;
+        height: 0;
+        transition: height 0.5s ease;
+    }
+
+    nav a {
+        display: none;
+        
+    }
+
+    nav img {
+        display: none;
+    }
+
+    #menu {
+        display: block;
+        color: white;
+        background: none;
+        border: none;
+        font-size: 44px;
+    }
+
+    nav.open {
+        height: 258px;
+    }
+
+    .open a{
+        display: block;
+    }
+
+    #menu::before {
+        content: "☰";
+    }
+
+    #menu.open::before {
+        content: "X";
+    }
+
+    .list section {
+        grid-template-columns: 1fr;
+        padding: 5px;
+        text-align: center;
+    }
+
+    main {
+        padding: 10px;
+    }
+
+    .grid section img {
+        width: 100%;
+    }
+    
+    footer {
+        grid-template-columns: 1fr;
+        padding-left: 10px;
+    }
+}

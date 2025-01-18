@@ -1,0 +1,66 @@
+{
+    "members": [
+        {
+            "companyname": "Tech Innovations Inc.",
+            "companyaddress": "123 Midway Rd, Dallas, TX 94103",
+            "companyphonenumber": "(214) 555-1234",
+            "websiteurl": "techinnovations.com",
+            "iconfilename": "images/tech-logo.png",
+            "membershiplevel": 3
+        },
+        {
+            "companyname": "Green Earth Solutions",
+            "companyaddress": "456 Knox St, Dallas, TX 73301",
+            "companyphonenumber": "(214) 555-5678",
+            "websiteurl": "greenearthsolutions.org",
+            "iconfilename": "images/green-logo.png",
+            "membershiplevel": 2
+    
+        },
+        {
+            "companyname": "Creative Minds Agency",
+            "companyaddress": "789 Elm St, Dallas, TX 10001",
+            "companyphonenumber": "(214) 555-9876",
+            "websiteurl": "creativemindsagency.com",
+            "iconfilename": "images/creative-logo.png",
+            "membershiplevel": 1
+    
+        },
+        {
+            "companyname": "FutureTech Solutions",
+            "companyaddress": "321 Greenville Ave, Dallas, TX 98101",
+            "companyphonenumber": "(214) 555-4321",
+            "websiteurl": "futuretechsolutions.net",
+            "iconfilename": "images/future-logo.png",
+            "membershiplevel": 3
+    
+        },
+        {
+            "companyname": "Healthy Living Co.",
+            "companyaddress": "654 Forest Ln, Dallas, TX 33101",
+            "companyphonenumber": "(972) 555-6789",
+            "websiteurl": "healthylivingco.com",
+            "iconfilename": "images/healthy-logo.png",
+            "membershiplevel": 2
+    
+        },
+        {
+            "companyname": "Urban Ventures LLC",
+            "companyaddress": "987 Belt Line Rd, Dallas, TX 60601",
+            "companyphonenumber": "(469) 555-1357",
+            "websiteurl": "urbanventuresllc.com",
+            "iconfilename": "images/urban-logo.png",
+            "membershiplevel": 2
+    
+        },
+        {
+            "companyname": "Global Enterprises",
+            "companyaddress": "159 Cedar Springs Rd, Dallas, TX 20001",
+            "companyphonenumber": "(469) 555-2468",
+            "websiteurl": "globalenterprises.com",
+            "iconfilename": "images/global-logo.png",
+            "membershiplevel": 1
+    
+        }
+    ]
+}

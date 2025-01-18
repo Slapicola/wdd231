@@ -1,0 +1,137 @@
+@import url('https://fonts.googleapis.com/css2?family=Markazi+Text:wght@400..700&family=Tinos&display=swap');
+
+header, footer {
+    font-family: "Tinos", serif;
+}
+header {
+    display: flex;
+    /* justify-content: space-between; */
+    background-color: rgb(1, 80, 1);
+    color: white;
+}
+
+header h1 {
+    font-size: 45px;
+    position: relative;
+    top: 0.5rem;
+}
+
+header img {
+    padding: 20px;
+}
+
+nav {
+    display: flex;
+    justify-content: flex-end;
+    background-color: rgb(0, 150, 0);
+}
+
+nav a {
+    color: white;
+    padding: 15px;
+    text-decoration: none;
+    font-size: 30px;
+}
+
+nav a:hover {
+    background-color: rgba(4, 197, 4, 0.234);
+}
+
+#menu {
+    display: none;
+}
+
+#buttonArea {
+    display: flex;
+    justify-content: center;
+    padding: 10px;
+    gap: 10px;
+}
+
+.active {
+    background-color: rgba(0, 0, 0, 0.2);
+}
+
+main {
+    padding: 20px;
+}
+
+#grid, #list {
+    padding: 20px;
+    background-color: rgb(111, 254, 111);
+    border: 2px solid rgb(90, 175, 90);
+    color: black;
+    font-family: "Tinos", serif;
+}
+
+#grid:hover, #list:hover {
+    background-color: rgb(152, 248, 152);
+    border-color: rgb(79, 154, 79);
+}
+
+.grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+    text-align: center;
+    gap: 10px;
+}
+
+.grid section h1 {
+    display: none;
+}
+
+.grid section {
+    padding: 10px;
+}
+
+.grid section p {
+    font-size: 30px;
+}
+
+.grid section img {
+    align-content: center;
+}
+
+.list {
+    display: flex;
+    flex-direction: column;
+}
+
+.list section {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+    place-items: center;
+}
+
+.list section p {
+    font-size: 30px;
+}
+
+.list section:nth-child(odd) {
+    background-color: gainsboro;
+}
+
+.list section img {
+    display: none;
+}
+
+#businessCards section {
+    border: 2px solid black;
+    font-family: "Markazi Text", serif;
+    font-size: 24px;
+}
+
+#socialLinks {
+    align-content: center;
+}
+
+#socialLinks img {
+    padding: 10px;
+}
+
+footer {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    background-color: rgb(1, 80, 1);
+    color: white;
+}
