@@ -87,8 +87,7 @@ apiFetch(forecastUrl);
 
 function displayWeather(data) {
     currentTemp.innerHTML = `${data.main.temp}&deg;F`;
-    const iconsrc = `https://openweathermap.org/img/w/${data.weather[0].icon}.png`;
-    weatherIcon.setAttribute("src", iconsrc);
+    weatherIcon.setAttribute("src", `https://openweathermap.org/img/w/${data.weather[0].icon}.png`);
     weatherIcon.setAttribute("alt", data.weather[0].description);
     conditions.innerHTML = `${data.weather[0].description}`;
     highTemp.innerHTML = `${data.main.temp_max}&deg`;
