@@ -1,0 +1,184 @@
+@import url('https://fonts.googleapis.com/css2?family=Markazi+Text:wght@400..700&family=Tinos&display=swap');
+
+header, footer {
+    font-family: "Tinos", serif;
+}
+header {
+    display: flex;
+    /* justify-content: space-between; */
+    background-color: rgb(1, 80, 1);
+    color: white;
+}
+
+header h1 {
+    font-size: 45px;
+    position: relative;
+    top: 0.5rem;
+}
+
+header img {
+    padding: 20px;
+}
+
+nav {
+    display: flex;
+    justify-content: flex-end;
+    background-color: rgb(0, 150, 0);
+}
+
+nav a {
+    color: white;
+    padding: 15px;
+    text-decoration: none;
+    font-size: 30px;
+}
+
+nav a:hover {
+    background-color: rgba(4, 197, 4, 0.234);
+}
+
+#menu {
+    display: none;
+}
+
+main {
+    margin: 0 auto;
+    max-width: 900px;
+    padding: 5px;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 20px;
+}
+
+main h1{
+    text-align: center;
+    font-family: "Tinos", serif;
+
+}
+
+form {
+    background-color: rgb(111, 254, 111);
+    grid-column: 1 / 2;
+    
+    fieldset {
+        border: none;
+    }
+
+    h2 {
+        font-family: "Tinos", serif;
+    }
+}
+
+fieldset label{
+    display: block;
+    padding-bottom: 15px;
+    font-size: 25px;
+    font-family: "Markazi Text", serif;
+}
+
+input[type=text],
+input[type=email],
+input[type=tel],
+select,
+textArea
+{
+    display: block;
+    width: 95%;
+}
+
+input:required {
+    border: 3px solid black;
+}
+
+input[type=submit] {
+    width: 75%;
+    margin: -1rem 12.5% 2rem 12.5%;
+    padding: 10px;
+    background-color: rgb(0, 150, 0);
+    border: 2px solid rgba(0, 0, 0, 0.2);
+    font-size: 20px;
+    color: white;
+}
+
+input[type=submit]:hover {
+    background-color: rgb(0, 115, 0);
+    border: 2px solid rgba(0, 0, 0, 0.5);
+}
+
+div {
+    border-radius: 2rem;
+    text-align: center;
+    padding: 10px;
+    border: 2px black solid;
+    font-family: "Markazi Text", serif;
+    font-size: 30px;
+    margin-bottom: 15px;
+
+    animation-name: fadeIn;
+    animation-duration: 2s;
+}
+
+#Bronze {
+    background-color: rgb(171, 112, 4);
+}
+
+#Silver {
+    background-color: rgb(217, 217, 217);
+}
+
+#Gold {
+    background-color: rgb(188, 198, 3);
+}
+
+dialog {
+    background-color: gainsboro;
+    width: 25%;
+    border: 2px gray solid;
+}
+
+dialog h2 {
+    font-family: "Tinos", serif;
+}
+
+dialog h3,
+#benefits {
+    font-family: "Markazi Text", serif;
+    font-size: 25px;
+}
+
+#benefits ul {
+    list-style-type: "- ";
+}
+
+div button {
+    padding: 10px;
+}
+
+.active {
+    background-color: rgba(0, 0, 0, 0.2);
+}
+
+#socialLinks {
+    align-content: center;
+}
+
+#socialLinks img {
+    padding: 10px;
+}
+
+footer {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    background-color: rgb(1, 80, 1);
+    color: white;
+    padding-left: 5px;
+}
+
+@keyframes fadeIn {
+    0% {
+        opacity: 0%;
+    }
+    100% {
+        opacity: 100%;
+    }
+}

@@ -1,0 +1,99 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Dallas Chamber of Commerce Join Page</title>
+    <meta name="description" content="WDD 231, Sophia Lapicola, This is the Join page for the Chamber of Commerce site project">
+    <meta name="author" content="Sophia Lapicola">
+    <meta property="og:title" content="Dallas TX Chamber of Commerce Join Page">
+    <meta property="og:type" content="website">
+    <meta property="og:image" content="https://slapicola.github.io/wdd231/chamber/images/dallas-chamber-image.png">
+    <meta property="og:url" content="https://slapicola.github.io/wdd231/chamber/join.html">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Markazi+Text:wght@400..700&family=Tinos&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="styles/normalize.css">
+    <link rel="stylesheet" href="styles/join-large-view.css">
+    <link rel="stylesheet" href="styles/join-small-view.css">
+    <link rel="icon" href="images/chamber-favicon.ico">
+    <script src="scripts/join.js" defer></script>
+</head>
+<body>
+    <header>
+            <img src="images/chamber-logo.png" alt="Dallas Chamber logo" width="75" height="75">
+            <h1>Dallas Chamber of Commerce</h1>
+            <button id="menu"></button>
+            
+        </header>
+        <nav>
+            <a href="index.html">Home</a>
+            <a href="directory.html" class="active">Directory</a>
+            <a href="join.html">Join</a>
+            <a href="#">Discover</a>
+            <img src="images/menu-circle-icon.jpg" alt="icon" width="50" height="50">
+        </nav>
+    <main>
+        <h1>Membership Application Form</h1>
+        <form method="get" action="thankyou.html">
+            <fieldset>
+                <h2>Personal Information</h2>
+                <label>First Name* <input type="text" name="first" title="firstName" required autocomplete="given-name"></label>
+                <label>Last Name* <input type="text" name="last" title="lastName" required autocomplete="family-name"></label>
+                <label>Organizational title <input type="text" name="title" title="seven characters, can include hyphens and spaces" autocomplete="organization-title" pattern="/^[A-Za-z\s-]{7,}$/"></label>
+                <label>Email Address* <input type="email" name="email" title="email" required autocomplete="email" placeholder="janedoe1234@gmail.com"></label>
+                <label>Phone Number* <input type="tel" name="phone" title="phoneNumber" required autocomplete="tel"></label>
+            </fieldset>
+            <fieldset>
+                <h2>Business/Organization Information</h2>
+                <label>Business/Organization's Name* <input type="text" name="business/organizationName" title="organizationName" required autocomplete="organization"></label>
+                <label>Membership Level 
+                    <select name="membershipLevel">
+                        <option value="NP">NP Membership</option>
+                        <option value="Bronze">Bronze Membership</option>
+                        <option value="Silver">Silver Membership</option>
+                        <option value="Gold">Gold Membership</option>
+                    </select>
+                </label>
+                <label>Description <textarea title="organizationDesciption" name="organizationDesciption"></textarea></label>
+            </fieldset>
+            <fieldset>
+                <label>Timestamp <input type="hidden" name="timeLoaded" id="timeStamp"></label>
+            </fieldset>
+
+            <input type="submit" value="Become a Member">
+        </form>
+
+        <section class="membershipLevels">
+            <h2>Membership Levels</h2>
+        </section>
+
+        <!-- dialog Box -->
+         <dialog>
+            <button id="close">X</button>
+         </dialog>
+    </main>
+    <footer>
+        <section id="contactInfo">
+            <h2>Dallas Chamber of Commerce</h2>
+            <p>700 N Pearl St</p>
+            <p>Dallas, TX 75201</p>
+            <p>info@dallascc.org</p>
+            <p>(972) 344-6709</p>
+        </section>
+        <section id="socialLinks">
+            <img src="images/Youtube_logo.webp" alt="YouTube icon">
+            <img src="images/twitter-icon.jpg" alt="Twitter icon" width="65" height="65">
+            <img src="images/linkedin-icon.webp" alt="LinkinIn icon" width="65" height="65">
+        </section>
+        <section id="myInfo">
+            <p>WDD231 Class Project</p>
+            <p>Sophia Lapicola</p>
+            <p>©️ <span id="currentyear"></span> Dallas Chamber of Commerce</p>
+            <p id="lastModified"></p>
+        </section>
+
+    </footer>
+    
+</body>
+</html>

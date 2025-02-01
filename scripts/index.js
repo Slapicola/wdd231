@@ -117,8 +117,8 @@ wddButton.addEventListener("click", () =>{
 const aCourse = document.querySelectorAll(".courseCard");
 
 aCourse.forEach((course, index) => {
-    if (courses[index] && courses[index].completed === true) {
-        course.style.backgroundColor = "darkCyan";
+    if (courses[index] && courses[index].completed === false) {
+        course.style.backgroundColor = "cyan";
     }
 });
 
@@ -134,8 +134,34 @@ numCredits.innerHTML = totalCredits;
 function showCourses(filteredCourses) {
     myCourses.innerHTML = "";
     filteredCourses.forEach((course) => {
-        myCourses.innerHTML += `<section class="courseCard">
-        <h3>${course.subject} ${course.number}</h3>
-        </section>`
+        const cards = document.createElement("section");
+        cards.className = "courseCard";
+        cards.innerHTML = `<h3>${course.subject} ${course.number}</h3>`;
+
+        cards.addEventListener("click", () => {
+            displayCourseInfo(course);
+        });
+        myCourses.appendChild(cards);
+    });
+};
+
+const dialog = document.querySelector('dialog');
+const courseInfoArea = document.querySelector("#courseInfo");
+const closeButton = document.querySelector("#close");
+
+function displayCourseInfo(course) {
+    courseInfoArea.innerHTML = "";
+    courseInfoArea.innerHTML = `
+    <h2>${course.subject} ${course.number}</h2>
+    <p>${course.title}</p>
+    <p>${course.credits} credits</p>
+    <p>Certificate: ${course.certificate}</p>
+    <p>${course.description}</p>
+    <p>Technology: ${course.technology.join(", ")}</p>
+    `;
+    dialog.showModal();
+
+    closeButton.addEventListener('click', () => {
+        dialog.close();
     });
 }

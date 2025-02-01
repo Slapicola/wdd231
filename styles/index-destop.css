@@ -78,6 +78,8 @@ section {
     font-family: "Nunito";
     border-radius: 1rem;
     margin: 10px;
+
+    transition: background-color 0.5s ease-in-out, color 0.5s ease-in-out;
 }
 
 #buttonArea {
@@ -92,8 +94,8 @@ section {
     border: 2px solid rgb(210, 22, 22);
 }
 
-.courseCard {
-    background-color: cyan;
+.courseCard{
+    background-color: darkcyan;
     font-family: "Architects Daughter";
 }
 
@@ -130,7 +132,47 @@ section h2 {
     font-family: "Nunito";
 }
 
+dialog {
+    border: 2px black solid;
+}
+
+#courseInfo {
+    padding: 5px;
+}
+
+dialog h2{
+    background-color: darkcyan;
+    font-family: "Architects Daughter", serif;
+}
+
+::backdrop {
+    background-color: black;
+    opacity: 0.5;
+}
+
+#close {
+    position: absolute;
+    top: 32px;
+    right: 32px;
+    background-color: rgb(90, 228, 228);
+    color: white;
+    border: 2px solid rgb(1, 191, 191);
+}
+
 footer {
     padding: 15px;
     font-size: 30px;
+}
+
+@keyframes buttonColor {
+    0% {
+        background-color: rgb(157, 14, 14);
+        color: lightgrey;
+        border: 2px solid rgb(110, 10, 10);
+    }
+
+    100% {
+        background-color: rgb(246, 26, 26);
+        border: 2px solid rgb(210, 22, 22);
+    }
 }
