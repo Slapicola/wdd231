@@ -27,42 +27,53 @@ function displayMembershipCard(level) {
     </div>`
 }
 
-// const loadDate = newDate();
+const loadDate = new Date();
+let hours = loadDate.getHours();
+let minutes = loadDate.getMinutes();
+let seconds = loadDate.getSeconds();
 
-// let currentDate = document.getElementById("timeStamp").value = loadDate.toDateString();
+document.getElementById("joinForm").addEventListener("submit", function() {
+    document.getElementById("timeStamp").value = `${loadDate.toDateString()} ${hours}:${minutes}:${seconds}`;
+});
+
 
 const dialog = document.querySelector("dialog");
+const membershipInfo = document.querySelector("#membershipInfo");
 const openButton = document.querySelector("#Button");
 const closeButton = document.querySelector("#close");
 
 
 NPButton.addEventListener("click", () => {
-    displayMembershipLevelInput("NP");
-    benefits.innerHTML = `
+    dialog.showModal();
+    membershipInfo.innerHTML = `
+    <h2>NP Level</h2>
+    <p>Membership Fee: none</p>
     <h3>Benefits:</h3>
     <ul>
         <li>Training</li>
         <li>5% Event discount</li>
     </ul>
     `;
-    dialog.showModal();
 })
 
 BronzeButton.addEventListener("click", () => {
-    displayMembershipLevelInput("Bronze");
-    benefits.innerHTML = `
+    dialog.showModal();
+    membershipInfo.innerHTML = `
+    <h2>Bronze Level</h2>
+    <p>Membership Fee: $5</p>
     <h3>Benefits:</h3>
     <ul>
         <li>Training</li>
         <li>10% Event discount</li>
     </ul>
     `;
-    dialog.showModal();
 })
 
 SilverButton.addEventListener("click", () => {
-    displayMembershipLevelInput("Silver");
-    benefits.innerHTML = `
+    dialog.showModal();
+    membershipInfo.innerHTML = `
+    <h2>Silver Level</h2>
+    <p>Membership Fee: $10</p>
     <h3>Benefits:</h3>
     <ul>
         <li>Training</li>
@@ -70,12 +81,13 @@ SilverButton.addEventListener("click", () => {
         <li>Advertisments on our homepage</li>
     </ul>
     `;
-    dialog.showModal();
 })
 
 GoldButton.addEventListener("click", () => {
-    displayMembershipLevelInput("Gold");
-    benefits.innerHTML = `
+    dialog.showModal();
+    membershipInfo.innerHTML = `
+    <h2>Gold Level</h2>
+    <p>Membership Fee: $15</p>
     <h3>Benefits:</h3>
     <ul>
         <li>Training</li>
@@ -84,18 +96,11 @@ GoldButton.addEventListener("click", () => {
         <li>Access to special Chamber Events</li>
     </ul>
     `;
-    dialog.showModal();
 })
 
 closeButton.addEventListener("click", () => {
     dialog.close();
 })
-
-function displayMembershipLevelInput(level) {
-    dialog.innerHTML = `
-    <h2>${level} Level</h2>
-    <p id=benefits></p>`
-}
 
 const form = document.querySelector('form');
 form.addEventListener('submit', function(event) {

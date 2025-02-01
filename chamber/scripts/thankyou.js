@@ -1,3 +1,10 @@
+const currentyear = document.querySelector("#currentyear");
+
+const today = new Date();
+currentyear.innerHTML = today.getFullYear();
+lastModified.innerHTML = `Last Modified: ${document.lastModified}`;
+
+
 const currentUrl = window.location.href;
 console.log(currentUrl);
 
@@ -10,7 +17,7 @@ console.log(formInfo);
 function showData(input) {
     formInfo.forEach((element) => {
         if (element.startsWith(input)) {
-            info = element.split("=")[1].replace("%2B", "+").replace("%40", "@").replace("+", " ");
+            info = element.split("=")[1].replace("%2B", "+").replace("%40", "@").replaceAll("+", " ").replaceAll("%3A", ":");
         }
     })
     return(info);
@@ -22,4 +29,4 @@ dataInfo.innerHTML = `
 <p><strong>Email:<strong> ${showData("email")}</p>
 <p><strong>Phone Number:<strong> ${showData("phone")}</p>
 <p><strong>Business/Organization Name:<strong> ${showData("business")}</p>
-<p><strong>Current Date:<strong> ${showData("timeLoaded")}</p>`
+<p><strong>Date and Time that form was submitted:<strong> ${showData("timeLoaded")}</p>`
