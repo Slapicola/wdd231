@@ -58,14 +58,14 @@ main h1{
 form {
     background-color: rgb(111, 254, 111);
     grid-column: 1 / 2;
+}
     
-    fieldset {
-        border: none;
-    }
+fieldset {
+    border: none;
+}
 
-    h2 {
-        font-family: "Tinos", serif;
-    }
+form h2 {
+    font-family: "Tinos", serif;
 }
 
 fieldset label{
