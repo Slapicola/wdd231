@@ -1,0 +1,43 @@
+@import url('https://fonts.googleapis.com/css2?family=Delius+Swash+Caps&family=Knewave&family=Noto+Sans+Mono:wght@100..900&display=swap');
+
+* {
+    background-color: #F1F2E3;
+    color: #363537;
+}
+
+h1, h2 {
+    font-family: "Delius Swash Caps", serif;
+}
+
+body {
+    font-family: "Noto Sans Mono", serif;
+}
+
+div {
+    border: 2px solid #363537;
+    width: 300px;
+    height: 230px;
+}
+
+div h3{
+    text-align: center;
+}
+
+div li {
+    font-family: "Knewave";
+}
+
+#buttonArea {
+    display: flex;
+    justify-content: center;
+}
+
+div button {
+    background-color: #59534A;
+    border: none;
+    border-radius: 1rem;
+    padding: 10px;
+    font-size: 20px;
+    width: 250px;
+    color: white;
+}
