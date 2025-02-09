@@ -22,7 +22,7 @@ header img {
 nav {
     display: flex;
     justify-content: flex-end;
-    background-color: rgb(0, 150, 0);
+    background-color: #0B380B;
 }
 
 nav a {
@@ -33,7 +33,7 @@ nav a {
 }
 
 nav a:hover {
-    background-color: rgba(4, 197, 4, 0.234);
+    background-color: rgba(23, 113, 23, 0.234);
 }
 
 #menu {
@@ -58,6 +58,7 @@ main h1{
 form {
     background-color: rgb(111, 254, 111);
     grid-column: 1 / 2;
+    padding-bottom: 25px;
 }
     
 fieldset {
@@ -91,7 +92,8 @@ input:required {
 
 input[type=submit] {
     width: 75%;
-    margin: -1rem 12.5% 2rem 12.5%;
+    margin: 0 auto;
+    display: block;
     padding: 10px;
     background-color: rgb(1, 80, 1);
     border: 2px solid rgba(0, 0, 0, 0.2);
@@ -160,7 +162,7 @@ div button {
 }
 
 .active {
-    background-color: rgba(0, 0, 0, 0.2);
+    background-color: rgba(1, 7, 1, 0.2);
 }
 
 #socialLinks {

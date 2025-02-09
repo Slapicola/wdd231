@@ -1,0 +1,52 @@
+{
+    "areas": [
+        {
+            "areaname": "Mercat Bistro",
+            "imageurl": "images/mercat-bistro.webp",
+            "areaaddress": "2501 N Harwood St, Suite 225, Dallas, TX 75201",
+            "areadescription": "Mercat Bistro is Paris without the passport. Its transitional yet eternally international ambiance makes Mercat an alluring morning, noon, and night destination to the savvy, well-traveled businessperson to the art-inclined couple seeking a romantic evening."
+        },
+        {
+            "areaname": "Meat Point",
+            "imageurl": "images/meat-point.webp",
+            "areaaddress": "7114 Campbell Rd, Ste 102, Dallas, TX 75248",
+            "areadescription": "Meat Point, located in North Dallas, is a Mediterranean steakhouse created from the chef's own design. An Israeli chef with fifteen years of experience in the restaurant industry has given Dallas, Texas an opportunity to experience a taste from an Israeli-American fusion of flavors."
+        },
+        {
+            "areaname": "Wild Bill's Western Store",
+            "imageurl": "images/wild-bills-western-store.webp",
+            "areaaddress": "311 N Market St., Dallas, TX 75202",
+            "areadescription": "For over 40 years, Wild Bill's has offered an authentic western shopping experience to guests coming from all over the USA and internationally. We are an iconic destination that offers in-stock and custom-made, one-of-a-kind cowboy boots, western hats accessories and souvenirs."
+        },
+        {
+            "areaname": "NorthPark Center",
+            "imageurl": "images/northpark-center.webp",
+            "areaaddress": "8687 N. Central Expressway Dallas, TX 75225",
+            "areadescription": "NorthPark Center is the preeminent shopping center in the Southwest and one of the finest shopping experiences in the world with more than 200 stores and restaurants, including more than 75 market exclusives. Anchored by Neiman Marcus, Nordstrom, Macy's, Dillard's, and Eataly, NorthPark offers an unparalleled collection of luxury boutiques set amid internationally acclaimed 20th and 21st century art, award-winning architecture, and extraordinary landscaping—as well as a 1.4-acre garden, CenterPark, and a state-of-the-art movie theatre, AMC NorthPark 15. "
+        },
+        {
+            "areaname": "The Shops at Park Lane",
+            "imageurl": "images/shops-at-park-lane.webp",
+            "areaaddress": "8080 Park Lane Dallas, TX 75231",
+            "areadescription": "Designer brands, sought-after services, and mouth-watering cuisine arranged in one central location, where green manicured lawns and café culture seamlessly blend into one of the most exciting shopping districts in Dallas."
+        },
+        {
+            "areaname": "Frost Bank",
+            "imageurl": "images/frost-bank.webp",
+            "areaaddress": "3704 W Camp Wisdom Rd, Dallas, TX 75237",
+            "areadescription": "Banking. Investments. Insurance. Texas roots. World-class service. From banking and insurance to all your investment needs, Frost is here for you."
+        },
+        {
+            "areaname": "Hillcrest Bank",
+            "imageurl": "images/hillcrest-bank.webp",
+            "areaaddress": "3102 Maple Ave, Ste 120, Dallas, TX 75201",
+            "areadescription": "Hillcrest Bank, a division of NBH Bank, is proud to call the Dallas area home. We build relationships rooted in personalized service and find simple and fair solutions for our clients."
+        },
+        {
+            "areaname": "Sightseeing Tour of Dallas",
+            "imageurl": "images/tour-of-dallas.webp",
+            "areaaddress": "646 Main St, Dallas, TX 75202, USA",
+            "areadescription": "Packing in Dallas' sites into just a few hours is almost impossible without renting a car. Avoid the hassle (and the money) of car rental and opt for this Dallas sightseeing tour. See top attractions and areas in just a couple of hours with a guide who tells you interesting city info as you go."
+        }
+    ]
+}

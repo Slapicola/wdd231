@@ -13,6 +13,28 @@ menuButton.addEventListener("click", () => {
     menuButton.classList.toggle("open");
 })
 
+document.addEventListener("DOMContentLoaded", function() {
+    const tabs = document.querySelectorAll(".nav-item");
+
+    const activeTab = localStorage.getItem("activeTab");
+    if (activeTab) {
+        const activeElement = document.querySelector(`.nav-item[data-tab="${activeTab}"]`);
+        if (activeElement) {
+            activeElement.classList.add("active");
+        }
+    }
+    
+    tabs.forEach(tab => {
+        tab.addEventListener("click", function () {
+            tabs.forEach(navTab => navTab.classList.remove("active"));
+            this.classList.add("active");
+
+            const tabId = this.getAttribute("data-tab");
+            localStorage.setItem("activeTab", tabId);
+        });
+    });
+});
+
 const membershipArea = document.querySelector(".membershipLevels");
 
 displayMembershipCard("NP");

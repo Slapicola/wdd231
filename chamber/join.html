@@ -27,10 +27,10 @@
             
         </header>
         <nav>
-            <a href="index.html">Home</a>
-            <a href="directory.html" class="active">Directory</a>
-            <a href="join.html">Join</a>
-            <a href="#">Discover</a>
+            <a href="index.html" class="nav-item" data-tab="tab1">Home</a>
+            <a href="directory.html" class="nav-item" data-tab="tab2">Directory</a>
+            <a href="join.html" class="nav-item" data-tab="tab3">Join</a>
+            <a href="discover.html" class="nav-item" data-tab="tab4">Discover</a>
             <img src="images/menu-circle-icon.jpg" alt="icon" width="50" height="50">
         </nav>
     <main>
@@ -58,7 +58,7 @@
                 <label>Description <textarea title="organizationDesciption" name="organizationDesciption"></textarea></label>
             </fieldset>
             <fieldset>
-                <label>Timestamp <input type="hidden" name="timeLoaded" id="timeStamp"></label>
+                <input type="hidden" name="timeLoaded" id="timeStamp">
             </fieldset>
 
             <input type="submit" value="Become a Member">

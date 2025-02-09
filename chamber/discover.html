@@ -15,6 +15,7 @@
     <link href="https://fonts.googleapis.com/css2?family=Markazi+Text:wght@400..700&family=Tinos&display=swap" rel="stylesheet">
     <link rel="stylesheet" href="styles/normalize.css">
     <link rel="stylesheet" href="styles/discover-large-view.css">
+    <link rel="stylesheet" href="styles/discover-medium-view.css">
     <link rel="stylesheet" href="styles/discover-small-view.css">
     <link rel="icon" href="images/chamber-favicon.ico">
     <script src="scripts/discover.js" defer></script>
@@ -27,13 +28,17 @@
             
         </header>
         <nav>
-            <a href="index.html">Home</a>
-            <a href="directory.html" class="active">Directory</a>
-            <a href="join.html">Join</a>
-            <a href="discover.html">Discover</a>
+            <a href="index.html" class="nav-item" data-tab="tab1">Home</a>
+            <a href="directory.html" class="nav-item" data-tab="tab2">Directory</a>
+            <a href="join.html" class="nav-item" data-tab="tab3">Join</a>
+            <a href="discover.html" class="nav-item" data-tab="tab4">Discover</a>
             <img src="images/menu-circle-icon.jpg" alt="icon" width="50" height="50">
         </nav>
     <main>
+        <div class="visitArea">
+            <h2>Visit Information: </h2>
+            <aside class="lastVisited"></aside>
+        </div>
         <div class="cardArea">
 
         </div>

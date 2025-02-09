@@ -1,0 +1,89 @@
+@media (min-width: 320px) and (max-width: 640px){
+    header {
+        display: grid;
+        grid-template-columns: 75px auto 44px;
+        align-items: center;
+        padding-left: 5px;
+        padding-right: 5px;
+    }
+
+    header h1 {
+        font-size: 25px;
+    }
+
+    header img {
+        padding: 0;
+    }
+
+    nav {
+        display: flex;
+        flex-direction: column;
+        text-align: center;
+        height: 0;
+        transition: height 0.5s ease;
+    }
+
+    nav a {
+        display: none;
+        
+    }
+
+    nav img {
+        display: none;
+    }
+
+    #menu {
+        display: block;
+        color: white;
+        background: none;
+        border: none;
+        font-size: 44px;
+    }
+
+    nav.open {
+        height: 258px;
+    }
+
+    .open a{
+        display: block;
+    }
+
+    #menu::before {
+        content: "☰";
+    }
+
+    #menu.open::before {
+        content: "X";
+    }
+
+    .visitArea {
+        width: 50%;
+    }
+
+    .cardArea {
+        grid-template-columns: 1fr;
+    }
+
+    .cardArea section {
+        grid-template-areas:
+        "name"
+        "image"
+        "address"
+        "description"
+        "button";
+    }
+
+    .cardArea section img {
+        width: 100%;
+    }
+
+    .cardArea section img:hover {
+        transform: rotate(0deg);
+    }
+
+    
+    footer {
+        grid-template-columns: 1fr;
+        padding-left: 10px;
+    }
+}
