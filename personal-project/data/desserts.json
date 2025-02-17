@@ -1,0 +1,436 @@
+{
+    "dessertrecipes": [
+        {
+            "foodname": "Brownie Pudding",
+            "genre": "Brownies",
+            "servingsize": 8,
+            "preptime": "1 hour 30 minutes",
+            "cooktime": "1 hour",
+            "ingredients": [
+                "1 cup (8 oz.) unsalted butter, melted and cooled slightly, plus more for buttering dish",
+                "3/4 cup Dutch process cocoa powder",
+                "1/2 cup all-purpose flour",
+                "1/2 tsp. kosher salt",
+                "2 tsp. espresso powder or instant espresso granules",
+                "4 extra-large eggs, at room temperature",
+                "2 cups granulated sugar",
+                "2 tsp. vanilla extract",
+                "1 Tbsp. coffee liqueur, such as Kahlua (optional)",
+                "Hot water, for water bath",
+                "Vanilla or coffee-flavored ice cream, for serving"],
+            "directions": [
+                "Preheat the oven to 325°F. Grease a 2-quart baking dish with butter.",
+                "Sift the cocoa powder and flour together into a medium-sized bowl. Add the kosher salt and espresso powder to the bowl and whisk to combine. Set aside.",
+                "Add the eggs and sugar to the bowl of a stand mixer fitted with the whisk attachment. Whip on medium-high speed for 10 minutes; the mixture will be pale, thickened, and voluminous. Add the vanilla extract and coffee liqueur, if using, and mix briefly to combine.",
+                "With the mixer running on low speed, gradually add the flour mixture to the egg mixture, one spoonful at a time, stopping the mixer once the last spoonful has been incorporated into the batter. Be careful not to overmix.",
+                "Return the mixer to low speed and carefully pour the melted butter into the batter in a slow, steady stream, mixing only until just combined.",
+                "Pour the batter into the prepared baking dish. Next, place the baking dish in a larger baking pan (we used a roasting pan) and fill the pan with hot water until the water reaches halfway up the sides of the baking dish. Carefully transfer the pan to the center rack of the oven and bake for 60 minutes. The top will be set with a matte appearance, and underneath will appear to be very under-baked That's okay! Remember, this is a gooey pudding dessert, not a pan of brownies. Carefully remove the baking dish from the water-filled pan and allow to cool completely before serving. For a firmer pudding, allow to cool in the fridge. Best enjoyed with a scoop of vanilla or coffee-flavored ice cream!"
+            ]
+        },
+        {
+            "foodname": "White Chocolate Macadamia Nut Cookies",
+            "genre": "Cookies",
+            "servingsize": 48,
+            "preptime": "15 minutes",
+            "cooktime": "10 minutes",
+            "ingredients": [
+                "1 cup butter, softened",
+                "3/4 cup packed light brown sugar",
+                "1/2 cup white sugar", 
+                "2 large eggs",
+                "1/2 teaspoon vanilla extract",
+                "1/2 teaspoon almond extract",
+                "2 1/2 cups all-purpose flour",
+                "1 teaspoon baking soda",
+                "1/2 teaspoon salt",
+                "1 cup coarsely chopped macadamia nuts",
+                "1 cup coarsely chopped white chocolate"
+            ],
+            "directions": [
+                "Gather all ingredients. Preheat the oven to 350 degrees F (175 degrees C).",
+                "Beat butter, brown sugar, and white sugar together in a large bowl with an electric mixer until light and fluffy. Beat in eggs one at a time, then stir in vanilla and almond extracts.",
+                "Combine flour, baking soda, and salt in another bowl. Gradually stir flour mixture into butter mixture.",
+                "Fold in macadamia nuts and white chocolate.",
+                "Drop spoonfuls of dough 2 inches apart onto ungreased cookie sheets.",
+                "Bake in the preheated oven until golden brown, about 10 minutes. Enjoy!"
+            ]
+        },
+        {
+            "foodname": "Devil's Food Cake",
+            "genre": "Cakes",
+            "servingsize": 12,
+            "preptime": "1 hour 30 minutes",
+            "cooktime": "30-32 minutes",
+            "ingredients": [
+                "Cooking spray",
+                "2 cups all-purpose flour (8 1/2 oz.)",
+                "2 cups granulated sugar",
+                "3/4 cup unsweetened cocoa (about 2 1/2 oz.)",
+                "2 tsp. baking soda",
+                "1 tsp. baking powder",
+                "1 tsp. salt",
+                "1 cup whole buttermilk, at room temperature",
+                "1/2 cup vegetable oil",
+                "1 1/2 tsp. vanilla extract",
+                "2 large eggs",
+                "1 cup hot brewed strong coffee",
+                "1 cup (2 sticks) unsalted butter, softened",
+                "3/4 cup unsweetened cocoa (about 2 1/2 oz.)",
+                "1/2 tsp. table salt",
+                "4 cups powdered sugar (1 lb.)",
+                "1/2 cup whole buttermilk",
+                "1 tsp. vanilla extract"
+            ],
+            "directions": [
+                "Preheat oven to 350°F. Coat 2 (9-inch) round cake pans with cooking spray. Line bottoms of pans with parchment paper; coat parchment with cooking spray.",
+                "Whisk together flour, granulated sugar, cocoa, baking soda, baking powder, and salt in a medium bowl. Combine buttermilk, oil, vanilla, and eggs in a separate large bowl; beat with an electric mixer at low speed until well combined, about 1 minute. Add flour mixture to bowl; beat with mixer at low speed until well blended, about 1 minute. Gradually add hot coffee, beating constantly at low speed (batter will be thin).",
+                "Divide batter evenly between prepared cake pans.",
+                "Bake at 350°F until a wooden pick inserted in the center comes out clean, 30 to 32 minutes.",
+                "Cool cakes in pans on wire racks for 10 minutes. Run a thin knife around outside edge of each cake; carefully invert cakes onto wire racks. Peel off and discard parchment paper. Cool cakes completely, 45 minutes to 1 hour.",
+                "To prepare Frosting, place butter in a large bowl; beat with an electric mixer at medium speed until light and fluffy, about 1 minute. Add cocoa and salt to butter; beat at medium-low speed until well combined, 1 to 1 1/2 minutes. With mixer on low speed, gradually add powdered sugar and buttermilk alternately to cocoa mixture, beginning and ending with sugar. Beat in vanilla, then increase mixer speed to medium and beat frosting until light and fluffy, 30 seconds to 1 minute.",
+                "Arrange 1 cake layer on a cake plate; spread about 1 cup frosting over layer. Arrange other cake layer on top; spread remaining frosting over top and sides of cake."
+            ]
+        },
+        {
+            "foodname": "Chocolate Chip Cookies",
+            "genre": "Cookies",
+            "servingsize": 24,
+            "preptime": "15 minutes",
+            "cooktime": "10-12 minutes",
+            "ingredients": [
+                "2 1/4 cups all-purpose flour",
+                "1 cup unsalted butter, softened",
+                "3/4 cup granulated sugar",
+                "3/4 cup brown sugar, packed",
+                "2 large eggs",
+                "1 tsp vanilla extract",
+                "1 tsp baking soda",
+                "1/2 tsp salt",
+                "2 cups chocolate chips"
+            ],
+            "directions": [
+                "Cream butter and sugars",
+                "add eggs and vanilla",
+                "mix dry ingredients",
+                "combine",
+                "add chcolate chips",
+                "bake at 350°F"
+            ]
+        },
+        {
+            "foodname": "Classic Blondies",
+            "genre": "Brownies",
+            "servingsize": 16,
+            "preptime": "15 minutes",
+            "cooktime": "25 minutes",
+            "ingredients": [
+                "1/2 cup (112g) butter, melted",
+                "1 cup (220g) tightly packed dark brown sugar",
+                "1 large egg, lightly beaten",
+                "1 teaspoon vanilla",
+                "1/2 teaspoon baking powder",
+                "1/8 teaspoon baking soda",
+                "Pinch salt",
+                "1 cup (128g) all-purpose flour",
+                "1/3 cup (60g) butterscotch chips (chopped walnuts and chocolate chips are equally tasty)"
+            ],
+            "directions": [
+                "Preheat the oven to 350°F (175°C)",
+                "Lightly butter and flour an 8x8-inch (20 cm x 20 cm) pan.",
+                "Whisk together the melted butter and sugar in a bowl. Add the egg and vanilla extract and whisk to combine.",
+                "Add the flour, baking soda, baking powder, and salt, and mix it all together. Add the butterscotch chips or other mix-ins (up to 1 cup total).",
+                "Pour into the pan and spread evenly. Bake for 18 to 25 minutes or until a tester inserted into the center comes out clean.",
+                "Allow to cool. Cut into squares or rectangles and serve."
+            ]
+        },
+        {
+            "foodname": "Fabulous Fudge Chocolate Cake",
+            "genre": "Cakes",
+            "servingsize": 24,
+            "preptime": "10 minutes",
+            "cooktime": "35 minutes",
+            "ingredients": [
+                "2 1/4 cups all-purpose flour",
+                "2 teaspoons baking soda",
+                "1/2 teaspoon salt",
+                "1/2 cup butter",
+                "2 1/2 cups packed brown sugar",
+                "3 eggs",
+                "1 1/2 teaspoons vanilla extract",
+                "3 (1 ounce) squares unsweetened chocolate, melted",
+                "1 cup sour cream",
+                "1 cup boiling water",
+                "1/2 cup butter",
+                "1 cup packed brown sugar",
+                "1/4 cup milk",
+                "1 3/4 cups confectioners' sugar"
+            ],
+            "directions": [
+                "Preheat oven to 350 degrees F (175 degrees C).",
+                "Sift together the flour, baking soda and salt. Set aside.",
+                "In a large bowl, beat 1/2 cup butter or margarine and 2 1/2 cups brown sugar until well mixed. Add eggs one at a time. Beat in the vanilla and melted chocolate squares. Add 1/2 the sour cream and then 1/2 the dry ingredients to the butter mixture until well blended.",
+                "Add the remaining sour cream and dry ingredients to the batter. Stir in boiling water.",
+                "Bake in a greased 9 X 13 inch pan for 35 minutes.",
+                "Let cool 10 minutes before icing.",
+                "To Make Caramel Icing: First melt 1/2 cup butter in a saucepan. Stir in 1 cup brown sugar and boil about 2 minutes. Stir in 1/4 cup milk and bring to a boil. Place pan in cold water and stir in the confectioners' sugar. Continue stirring until smooth. Spread over still warm cake."
+            ]
+        },
+        {
+            "foodname": "The Best Sugar Cookies",
+            "genre": "Cookies",
+            "servingsize": 24,
+            "preptime": "2 hours 30 minutes",
+            "cooktime": "12 minutes",
+            "ingredients": [
+                "2 and 1/4 cups (281g) all-purpose flour (spooned & leveled), plus more as needed for rolling and work surface",
+                "1/2 teaspoon baking powder",
+                "1/4 teaspoon salt",
+                "3/4 cup (170g) unsalted butter, softened to room temperature",
+                "3/4 cup (150g) granulated sugar",
+                "1 large egg, at room temperature",
+                "2 teaspoons pure vanilla extract",
+                "1/4 or 1/2 teaspoon almond extract (optional, but makes the flavor outstanding)*",
+                "Royal Icing, Easy Glaze Icing, or Cookie Buttercream",
+                "Assorted sprinkles"
+            ],
+            "directions": [
+                "Whisk the flour, baking powder, and salt together in a medium bowl. Set aside.",
+                "In a large bowl using a handheld or a stand mixer fitted with a paddle attachment, beat the butter and sugar together on high speed until completely smooth and creamy, about 3 minutes. Add the egg, vanilla, and almond extract (if using) and beat on high speed until combined, about 1 minute. Scrape down the sides and up the bottom of the bowl and beat again as needed to combine.",
+                "Add the dry ingredients to the wet ingredients and mix on low until combined. Dough will be a bit soft. If the dough seems too soft and sticky for rolling, add 1 more Tablespoon of flour.",
+                "Divide the dough into 2 equal parts. Place each portion onto a piece of lightly floured parchment paper or a lightly floured silicone baking mat. With a lightly floured rolling pin, roll the dough out to about 1/4-inch thickness. Use more flour if the dough seems too sticky. The rolled-out dough can be any shape, as long as it is evenly 1/4-inch thick.",
+                "Lightly dust one of the rolled-out doughs with flour. Place a piece of parchment on top. (This prevents sticking.) Place the 2nd rolled-out dough on top. Cover with plastic wrap or aluminum foil, then refrigerate for at least 1-2 hours and up to 2 days.",
+                "Once chilled, preheat oven to 350°F (177°C). Line 2-3 large baking sheets with parchment paper or silicone baking mats. Carefully remove the top dough piece from the refrigerator. If it’s sticking to the bottom, run your hand under it to help remove it—see me do this in the video below. Using a cookie cutter, cut the dough into shapes. Re-roll the remaining dough and continue cutting until all is used. Repeat with 2nd piece of dough. (Note: It doesn’t seem like a lot of dough, but you get a lot of cookies from the dough scraps you re-roll.)",
+                "Arrange cookies on baking sheets 3 inches apart. Bake for 11-12 minutes or until lightly browned around the edges. If your oven has hot spots, rotate the baking sheet halfway through bake time. Allow cookies to cool on the baking sheet for 5 minutes then transfer to a wire rack to cool completely before decorating.",
+                "Decorate the cooled cookies with royal icing, easy cookie icing, or cookie decorating buttercream. Feel free to tint any of the icings with gel food coloring. See post above for recommended decorating tools. No need to cover the decorated cookies as you wait for the icing to set. If it’s helpful, decorate the cookies directly on a baking sheet so you can stick the entire baking sheet in the refrigerator to help speed up the icing setting.",
+                "Enjoy cookies right away or wait until the icing sets to serve them."
+            ]
+        },
+        {
+            "foodname": "Cream Cheese Brownies",
+            "genre": "Brownies",
+            "servingsize": "20",
+            "preptime": "25 minutes",
+            "cooktime": "45 minutes",
+            "ingredients": [
+                "Baking spray",
+                "1/2 cup (4 oz.) unsalted butter",
+                "2 cups (12.25 oz.) semisweet chocolate chips",
+                "3/4 cup packed light brown sugar",
+                "3/4 cup, plus 1/3 cup granulated sugar, divided",
+                "5 large eggs, divided, at room temperature",
+                "2 1/2 tsp. vanilla extract, divided",
+                "1/2 tsp., plus 1/8 tsp. kosher salt, divided",
+                "1/2 cup (1.6 oz.) unsweetened cocoa powder",
+                "1/2 cup (2.12 oz.) all-purpose flour",
+                "8 oz. cream cheese, at room temperature"
+            ],
+            "directions": [
+                "Preheat oven to 325°F. Grease a metal 9- x 13-inch baking pan with baking spray, and set aside. Gather your ingredients.",
+                "In a medium saucepan, melt butter over medium-low until bubbling but not brown. Turn off heat, add chocolate chips, and stir to coat. Let sit for 5 minutes. Stir again until the chocolate is completely melted and combined with the butter.",
+                "Transfer to a large mixing bowl and add brown sugar, 3/4 cup granulated sugar, 4 eggs, and 2 tsp. vanilla. Whisk until well combined. Add 1/2 tsp. salt, cocoa powder, and flour and stir together until well combined. Spread batter evenly in prepared baking pan.",
+                "With a mixer, beat together cream cheese, 1/3 cup sugar, 1/2 tsp. vanilla, 1/8 tsp. salt, and 1 egg until well combined, about 2 to 3 minutes. Dollop over top of brownie batter. Using a knife or small offset spatula, swirl and fold cream cheese into batter; keep tip of knife just about 1/2 inch deep into the brownie batter as much as possible.",
+                "Bake until set, a wooden pick inserted in center come out with very moist crumbs, and brownies have started to pull away slightly from edges, about 45 minutes, loosely covering with aluminum foil to prevent overbrowning if needed. Allow to cool completely before cutting, about 2 to 3 hours."
+            ]
+        },
+        {
+            "foodname": "Best Carrot Cake Ever",
+            "genre": "Cakes",
+            "servingsize": 16,
+            "preptime": "20 minutes",
+            "cooktime": "45 minutes",
+            "ingredients": [
+                "6 cups grated carrots",
+                "1 cup brown sugar",
+                "1 cup raisins",
+                "4 eggs",
+                "1 1/2 cups white sugar",
+                "1 cup vegetable oil",
+                "2 teaspoons vanilla extract",
+                "1 cup crushed pineapple, drained",
+                "3 cups all-purpose flour",
+                "4 teaspoons ground cinnamon",
+                "1 1/2 teaspoons baking soda",
+                "1 teaspoon salt",
+                "1 cup chopped walnuts"
+            ],
+            "directions": [
+                "Gather all ingredients.",
+                "Combine grated carrots and brown sugar in a medium bowl. Let sit for 1 hour, then stir in raisins.",
+                "Preheat the oven to 350 degrees F (175 degrees C). Grease and flour two 10-inch round cake pans. Beat eggs in a large bowl until light.",
+                "Gradually beat in white sugar, oil, and vanilla. Stir in pineapple.",
+                "Combine flour, cinnamon, baking soda, and salt in a separate bowl, then stir into egg mixture until absorbed.",
+                "Stir in carrot mixture and walnuts. Pour evenly into the prepared pans.",
+                "Bake in the preheated oven until an inserted toothpick comes out clean, 45 to 50 minutes.",
+                "Cool for 10 minutes before removing cake layers from the pans; let cool completely."
+            ]
+        },
+        {
+            "foodname": "Classic Peanut Butter Cookies",
+            "genre": "Cookies",
+            "servingsize": 48,
+            "preptime": "15 minutes",
+            "cooktime": "10 minutes",
+            "ingredients": [
+                "1 cup unsalted butter",
+                "1 cup crunchy peanut butter",
+                "1 cup white sugar",
+                "1 cup packed brown sugar",
+                "2 large eggs",
+                "2 1/2 cups all-purpose flour",
+                "1 1/2 teaspoons baking soda",
+                "1 teaspoon baking powder",
+                "1/2 teaspoon salt"
+            ],
+            "directions": [
+                "Gather all ingredients.",
+                "Beat butter, peanut butter, white sugar, and brown sugar with an electric mixer in a large bowl until smooth; beat in eggs.",
+                "Sift flour, baking soda, baking powder, and salt into a separate bowl; stir into butter mixture until dough is just combined. Chill cookie dough in the refrigerator for 1 hour to make it easier to work with.",
+                "Preheat the oven to 375 degrees F (190 degrees C). Roll dough into 1-inch balls and place 2 inches apart onto ungreased baking sheets. Flatten each ball with a fork, making a crisscross pattern.",
+                "Bake in the preheated oven until edges are golden, about 7 to 10 minutes.",
+                "Cool on the baking sheets briefly before removing to a wire rack to cool completely."
+            ]
+        },
+        {
+            "foodname": "Chewy Brownies",
+            "genre": "Brownies",
+            "servingsize": 36,
+            "preptime": "10 minutes",
+            "cooktime": "30 minutes",
+            "ingredients": [
+                "2 cups white sugar",
+                "1 1/2 cups all-purpose flour",
+                "1/2 cup baking cocoa",
+                "1/2 teaspoon salt",
+                "1 teaspoon baking powder",
+                "1 cup vegetable oil",
+                "4 eggs",
+                "2 tablespoons light corn syrup",
+                "1 teaspoon vanilla extract",
+                "1 cup chopped walnuts (Optional)",
+                "1/4 cup confectioners' sugar",
+                "4 teaspoons water"
+            ],
+            "directions": [
+                "Preheat oven to 350 degrees F (175 degrees C). Lightly grease a 9x13-inch baking pan.",
+                "Combine white sugar, flour, cocoa, salt, and baking powder in a bowl. Whisk oil, eggs, corn syrup, and vanilla extract in a small bowl. Stir egg mixture into flour mixture; fold in walnuts. Spread into prepared baking pan.",
+                "Bake in preheated oven until a toothpick inserted near the center comes out clean, about 30 minutes.",
+                "Combine confectioner's sugar and water in a small bowl to make a glaze; drizzle over warm brownies."
+            ]
+        },
+        {
+            "foodname": "Red Velvet Cake",
+            "genre": "Cakes",
+            "servingsize": 12,
+            "preptime": "45 minutes",
+            "cooktime": "20 minutes",
+            "ingredients": [
+                "2 3/4 cups (330g) all-purpose flour*",
+                "1/4 cup (35g) cornstarch*",
+                "2 tablespoons (12g) unsweetened cocoa powder (any kind works)",
+                "1 teaspoon baking soda",
+                "3/4 teaspoon salt",
+                "1/2 cup (1 stick/113g) unsalted butter, softened to room temperature",
+                "2 1/8 cups (425g) granulated sugar",
+                "1 cup (240 ml) vegetable or canola oil",
+                "3 large eggs",
+                "2 teaspoons vanilla extract",
+                "1 1/4 teaspoons distilled white vinegar",
+                "2-3 tablespoons red food coloring gel",
+                "1 cup (240 ml) buttermilk",
+                "16 oz. (450g) full-fat block cream cheese (not spread), at room temperature",
+                "2 sticks/225g unsalted butter, softened to room temperature",
+                "4 cups (460g) powdered sugar, sifted",
+                "2 teaspoons pure vanilla extract",
+                "Pinch salt, optional"
+            ],
+            "directions": [
+                "Preheat oven to 350°F/180°C. Grease two 8-inch or 9-inch cake pans that are at least 2-inches high, and line the bottom of the pan with a round piece of parchment paper.",
+                "In a medium bowl, sift together dry ingredients: flour, cornstarch, cocoa powder, baking soda, and salt. Set aside.",
+                "In a standing mixer fitted with the paddle attachment, beat together butter and sugar on medium speed until light and fluffy, 3-4 minutes. Scrape down the sides and bottom of the bowl as necessary.",
+                "Beat in oil. The batter might look a bit curdled, that's ok. Add eggs, one at a time, mixing well between each addition. Add vanilla and vinegar and beat until combined.",
+                "Add red food coloring, until desired color is reached. With the mixer on low speed, add half of the dry ingredients and beat just until combined. Add buttermilk, followed by the rest of the dry ingredients. Do not over mix.",
+                "Divide batter evenly between pans. Bake for 30-35 minutes or until a toothpick inserted into the center comes out clean. Allow cakes to cool in the pan on a wire rack until they're easy to handle, then remove from pan and allow to cool completely on a wire rack.",
+                "In the bowl of an electric mixer fitted with the paddle attachment, beat butter and cream cheese on medium-high speed until smooth and creamy, 1-2 minutes.",
+                "Add sugar in 2 additions, beating well after each addition until smooth. Add vanilla and salt and keep beating until smooth and fluffy.",
+                "Set one layer on a plate with the flat side facing up (or, if your cake rose too much, cut its rounded top with a knife to make it flat). Evenly spread a thick layer of the frosting over the cake to the edge.",
+                "Top with the second cake layer, rounded side up. Spread the remaining frosting over the top and sides of the cake."
+            ]
+        },
+        {
+            "foodname": "Nutella Brownies",
+            "genre": "Brownies",
+            "servingsize": 12,
+            "preptime": "10 minutes",
+            "cooktime": "36 minutes",
+            "ingredients": [
+                "1/3 cup (5 Tablespoons; 71g) unsalted butter, softened to room temperature",
+                "1/2 cup (100g) packed light brown sugar",
+                "2 large eggs, at room temperature",
+                "2 teaspoons pure vanilla extract",
+                "1 and 1/4 cups (370g) Nutella, divided",
+                "1/2 teaspoon salt",
+                "3/4 cup (94g) all-purpose flour (spooned & leveled)",
+                "optional: 3/4 cup (135g) semi-sweet chocolate chips; a sprinkle of sea salt"
+            ],
+            "directions": [
+                "Preheat oven to 350°F (177°C). Line the bottom and sides of an 8-inch square baking pan or 9-inch square baking pan with aluminum foil or parchment, leaving an overhang on all sides to easily lift the brownies out of the pan when cool. (If using a 9-inch pan, the bake time will be a few minutes less.) Set aside.",
+                "With a handheld or stand mixer fitted with a paddle attachment, beat the butter on high speed in a large bowl until smooth and creamy, about 1 minute. Add the brown sugar and beat on high speed for 1-2 minutes until creamed. Scrape down the sides and up the bottom of the bowl as needed. With the mixer running on low speed, add the eggs and vanilla extract. Beat on medium-high speed until combined, then beat in 1 cup Nutella and salt. Mix until smooth and fluffy. Scrape down the sides and up the bottom of the bowl as needed. With the mixer running on low speed, add the flour, mixing just until combined. Do not overmix. If using chocolate chips, gently fold them in.",
+                "Pour the batter into prepared baking pan. Drop teaspoonfuls of the remaining 1/4 cup Nutella on top. Using a knife, swirl the Nutella into the batter. Top with a sprinkle of sea salt.",
+                "Bake the brownies for 32-36 minutes. Keep your eye on them and test with a toothpick to determine doneness. If the toothpick comes out with only a couple moist crumbs, the brownies are done. The brownies may take a few minutes longer; all ovens vary.",
+                "Allow the brownies to cool completely in the pan set on a wire rack. Once cool, lift the foil out of the pan using the overhang on the sides and cut into squares. You can top each with more sea salt if desired."
+            ]
+        },
+        {
+            "foodname": "Oatmeal Raisin Cookies",
+            "genre": "Cookies",
+            "servingsize": 48,
+            "preptime": "25 minutes",
+            "cooktime": "10 minutes",
+            "ingredients": [
+                "3/4 cup butter, softened",
+                "3/4 cup white sugar",
+                "3/4 cup packed light brown sugar",
+                "2 large eggs",
+                "1 teaspoon vanilla extract",
+                "1 1/4 cups all-purpose flour",
+                "1 teaspoon baking soda",
+                "3/4 teaspoon ground cinnamon",
+                "1/2 teaspoon salt",
+                "2 3/4 cups rolled oats",
+                "1 cup raisins"
+            ],
+            "directions": [
+                "Gather all ingredients. Preheat the oven to 375 degrees F (190 degrees C). Line two cookie sheets with parchment paper or silicone liners.",
+                "Beat butter, white sugar, and brown sugar in a large bowl until smooth and creamy. Beat in eggs and vanilla until fluffy.",
+                "Stir together flour, baking soda, cinnamon, and salt. Gradually beat into the butter mixture. Stir in oats and raisins. Drop teaspoonfuls of batter 2 inches apart onto the prepared cookie sheets.",
+                "Bake in the preheated oven until golden brown, 8 to 10 minutes, switching racks halfway through. Remove from the oven and let sit on the cookie sheets for 1 to 2 minutes before transferring cookies to a wire rack to cool completely."
+            ]
+        },
+        {
+            "foodname": "Yellow Cake Made from Scratch",
+            "genre": "Cakes",
+            "servingsize": 24,
+            "preptime": "15 minutes",
+            "cooktime": "40 minutes",
+            "ingredients": [
+                "2 cups all-purpose flour",
+                "3 1/2 teaspoons baking powder",
+                "1 teaspoon salt",
+                "1 1/2 cups white sugar",
+                "1/2 cup shortening",
+                "3 eggs",
+                "1 cup milk",
+                "1 teaspoon vanilla extract"
+            ],
+            "directions": [
+                "Gather all ingredients. Preheat the oven to 350 degrees F (175 degrees C). Grease and flour a 9x13-inch baking pan.",
+                "Combine flour, baking powder, and salt together in a medium bowl.",
+                "Beat sugar and shortening together in a large bowl with an electric mixer until light and fluffy. Add eggs, one at a time, beating thoroughly after each addition.",
+                "Add flour mixture alternately with milk, beating just to combine. Stir in vanilla and pour cake batter into the prepared pan.",
+                "Bake in the preheated oven until a toothpick inserted in the center comes out clean, about 40 to 45 minutes.",
+                "Cool cake completely and top with your favorite frosting."
+            ]
+        }
+    ]
+
+}

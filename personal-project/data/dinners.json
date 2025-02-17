@@ -1,0 +1,428 @@
+{
+    "dinnerrecipes": [
+        {
+            "foodname": "10 minute Cream Cheese Pasta",
+            "id": 1,
+            "genre": "Italian",
+            "servingsize": 3,
+            "preptime": "none",
+            "cooktime": "10 minutes",
+            "ingredients": [
+                "1/2lb (225 grams) pasta",
+                "3/4 cup (160 grams) cream cheese",
+                "1/4 cup (30 grams) grated parmesan, plus more to serve",
+                "1 Tbsp olive oil, plus more to serve",
+                "1-2 garlic cloves, minced or pressed",
+                "1/2 cup (120 ml) cooking water, plus more if needed",
+                "salt and pepper, to taste",
+                "1/4-1/2 tsp chili flakes, or according to taste (optional)"],
+            "directions": [
+                "In a large pot of boiling salted water, cook pasta according to package directions until al dente.",
+                "Right before draining, reserve a cup of starchy pasta water.",
+                "Meanwhile, in a large skillet warm 1 Tbsp of olive oil and gently fry the garlic (plus a good pinch of chili flakes if you like) for 2-3 minutes. Use a low flame, do not let the garlic burn.",
+                "Then stir the cream cheese and about 1/2 cup of starchy pasta water. Stir to combine oil, cream cheese, water and create a nice and creamy emulsion. Add parmesan cheese and stir well. Your pasta sauce is ready.",
+                "Drain and add your pasta to the skillet. Stir well to evenly coat the pasta in the sauce, add more cooking water as needed for a smooth and creamy consistency.",
+                "Serve immediately with a drizzle of good olive oil or extra virgin olive oil, freshly grated parmesan, and freshly ground black pepper (if you don't use chili flakes). Enjoy!"
+            ]
+        },
+        {
+            "foodname": "Chicken Cordon Bleu Casserole",
+            "id": 2,
+            "genre": "Italian",
+            "servingsize": 8,
+            "preptime": "20 minutes",
+            "cooktime": "45 minutes",
+            "ingredients": [
+                "1 whole Cooked Chicken, Bones Removed, Meat Diced Or Shredded (rotisserie Chicken Is Excellent, Should Be 5-6 Cups Of Chicken",
+                "1/2 pounds Very Thinly Sliced Deli-style Honey Ham, Rough Chopped",
+                "1/4 pounds Thin Sliced Baby Swiss Cheese",
+                "4 Tablespoons Butter",
+                "4 Tablespoons Flour",
+                "3 cups Whole Milk (or A Bit More If Needed; Whole Milk Is Required)",
+                "2 Tablespoons Fresh Squeezed Lemon Juice",
+                "1 Tablespoon Dijon Mustard",
+                "3/4 teaspoons Salt",
+                "1/2 teaspoons Smoked Paprika",
+                "1/4 teaspoons White Pepper",
+                "1-1/2 cup Panko Breadcrumbs",
+                "4 Tablespoons Butter, Melted",
+                "1/2 teaspoons Seasoning Salt",
+                "1-1/2 teaspoon Crushed Dried Parsley"
+            ],
+            "directions": [
+                "Preheat oven to 350 F. Butter a 9x13-inch baking dish. Set aside.",
+                "Put cooked shredded or diced chicken on the bottom of the baking dish. Rough chop the ham and scatter it over the top of the chicken. Lay the Swiss cheese on top of the ham.",
+                "Melt the butter in a large sauce pot over medium heat. When butter is melted, quickly stir in the flour to form a smooth roux. Do not brown! Once the roux is smooth and bubbly, slowly pour in the cold milk while stirring briskly to make a smooth sauce. Cook over medium heat, stirring constantly until the sauce thickens. Stir in the lemon juice, Dijon mustard, salt, smoked paprika and white pepper. Bring sauce just back to a low boil and turn off heat. Pour sauce evenly over the casserole, being certain to get some of the sauce around the edges of the pan.",
+                "Melt the butter in the microwave in a medium sized microwaveable bowl. Heat it for 30 seconds at a time and stop once it’s melted. Take the bowl out of the microwave and stir in the panko bread crumbs, crushed dried parsley. Sprinkle over the top of the casserole.",
+                "Bake casserole uncovered for 45 minutes until hot and bubbly throughout and topping has turned a light golden brown. Remove from oven and allow to cool for 5-10 minutes prior to serving."
+            ]
+        },
+        {
+            "foodname": "One Pot Garlic Parmesan Pasta",
+            "id": 3,
+            "genre": "Italian",
+            "servingsize": 4,
+            "preptime": "10 minutes",
+            "cooktime": "20 minutes",
+            "ingredients": [
+                "2 tablespoons unsalted butter",
+                "4 cloves garlic, minced",
+                "2 cups chicken broth",
+                "1 cup milk, or more, as needed",
+                "8 ounces uncooked fettuccine",
+                "Kosher salt and freshly ground black pepper, to taste",
+                "1/4 cup freshly grated Parmesan",
+                "2 tablespoons chopped fresh parsley leaves"
+            ],
+            "directions": [
+                "Melt butter in a large skillet over medium high heat. Add garlic and cook, stirring frequently, until fragrant, about 1-2 minutes.",
+                "Stir in chicken broth, milk and fettuccine; season with salt and pepper, to taste.",
+                "Bring to a boil; reduce heat and simmer, stirring occasionally, until pasta is cooked through, about 18-20 minutes. Stir in Parmesan. If the mixture is too thick, add more milk as needed until desired consistency is reached.",
+                "Serve immediately, garnished with parsley, if desired."
+            ]
+        },
+        {
+            "foodname": "Creamy Ranch Chicken",
+            "id": 4,
+            "genre": "American",
+            "servingsize": 4,
+            "preptime": "10 minutes",
+            "cooktime": "20 minutes",
+            "ingredients": [
+                "2 large boneless/skinless chicken breast",
+                "2 teaspoons Italian seasoning",
+                "Salt/Pepper",
+                "2 tablespoons butter, melted",
+                "1-2 tablespoons olive oil",
+                "10.5 oz. cream of chicken soup",
+                "1 1/2 cups milk",
+                "1 cup sour cream, at room temp",
+                "1/2 teaspoon onion powder",
+                "1 oz. packet Ranch seasoning mix, about 3 Tablespoons"
+            ],
+            "directions": [
+                "Slice the chicken into 2-3 thinner slices. Pound with a meat tenderizer if needed, the chicken will plump up more when cooked. Aim for ½ inch thick slices.",
+                "Sprinkle each side of the chicken with Italian seasoning and salt/pepper. Brush one side of each piece with melted butter, make sure the butter isn't too hot.",
+                "Heat olive oil in a large pan over medium-high heat. Sear the chicken in batches for 4-5 minutes per side, until a golden brown crust has developed. Remove and set aside.",
+                "Add the sauce ingredients to the same skillet over medium heat. Stir until combined. Let it bubble gently and reduce for 5 minutes. Add the chicken and spoon the sauce on top.",
+                "Cover the skillet partially and let the chicken heat through and absorb the flavors from the sauce, about 10 minutes.",
+                "Optional: Serve with baked potatoes and spoon the sauce over each potato (it is so good that way)!"
+            ]
+        },
+        {
+            "foodname": "Cheeseburger Quesadilla",
+            "id": 5,
+            "genre": "Mexican",
+            "servingsize": 2,
+            "preptime": "none",
+            "cooktime": "4-6 minutes",
+            "ingredients": [
+                "1 pound ground beef",
+                "2 tablespoons ketchup",
+                "2 tablespoons mustard",
+                "1 cup shredded cheddar cheese",
+                "1/4 cup diced onion",
+                "1/4 cup diced pickles",
+                "4 large tortillas",
+                "Special sauce for serving"
+            ],
+            "directions": [
+                "In a large skillet, cook the ground beef over medium heat until browned. Drain any excess fat.",
+                "Add the ketchup and mustard to the cooked beef, stirring to combine. Cook for an additional 2-3 minutes to allow the flavors to meld.",
+                "Place one tortilla in a separate skillet over medium heat.",
+                "Sprinkle a portion of the shredded cheddar cheese evenly over the tortilla.",
+                "Spread a layer of the beef mixture on top of the cheese.",
+                "Add a sprinkle of diced onion and pickles.",
+                "Sprinkle more shredded cheese over the top.",
+                "Place another tortilla on top to sandwich the filling.",
+                "Cook the quesadilla for 2-3 minutes on each side, until the cheese is melted and the tortilla is crispy.",
+                "Remove from the skillet and let it cool for a minute before slicing it into wedges.",
+                "Repeat the process for the remaining tortillas and filling.",
+                "Serve the cheeseburger quesadillas hot with a side of special sauce for dipping."
+            ]
+        },
+        {
+            "foodname": "Spaghetti Carbonara",
+            "id": 6,
+            "genre": "Italian",
+            "servingsize": "4",
+            "preptime": "5 minutes",
+            "cooktime": "15 minutes",
+            "ingredients": [
+                "8 ounces spaghetti",
+                "2 large eggs, at room temperature",
+                "1/2 cup freshly grated Parmesan",
+                "4 slices bacon, diced",
+                "4 cloves garlic, minced",
+                "Kosher salt and freshly ground black pepper, to taste",
+                "2 tablespoons chopped fresh parsley leaves"
+            ],
+            "directions": [
+                "In a large pot of boiling salted water, cook pasta according to package instructions; reserve 1/2 cup water and drain well.",
+                "In a small bowl, whisk together eggs and Parmesan; set aside.",
+                "Heat a large cast iron skillet over medium high heat. Add bacon and cook until brown and crispy, about 6-8 minutes; reserve excess fat.",
+                "Stir in garlic until fragrant, about 1 minute. Reduce heat to low.",
+                "Working quickly, stir in pasta and egg mixture, and gently toss to combine; season with salt and pepper, to taste. Add reserved pasta water, one tablespoon at a time, until desired consistency is reached.",
+                "Serve immediately, garnished with parsley, if desired."
+            ]
+        },
+        {
+            "foodname": "Classic Chili",
+            "id": 7,
+            "genre": "American",
+            "servingsize": 6,
+            "preptime": "10 minutes",
+            "cooktime": "30 minutes",
+            "ingredients": [
+                "1 Tbsp. extra-virgin olive oil",
+                "1/2 large white onion, chopped",
+                "3 cloves garlic, finely chopped",
+                "2 Tbsp. tomato paste",
+                "1 1/2 lb. ground beef",
+                "1 1/2 Tbsp. chili powder",
+                "1 tsp. dried oregano",
+                "1 tsp. ground cumin",
+                "1/2 tsp. paprika",
+                "1/4 tsp. cayenne pepper (optional)",
+                "Kosher salt",
+                "Freshly ground black pepper",
+                "1 (28-oz.) can crushed tomatoes",
+                "1 (15-oz.) can kidney beans, drained",
+                "Shredded cheddar, sour cream, and sliced scallions, for serving"
+            ],
+            "directions": [
+                "In a large pot over medium heat, heat oil. Add onion and cook, stirring occasionally, until slightly softened and translucent, about 5 minutes. Add garlic and cook, stirring, until fragrant, about 1 minute more. Add tomato paste, stirring to coat vegetables. Add ground beef and cook, breaking up meat with a spoon, until no longer pink, about 7 minutes. Drain any excess fat.",
+                "Add chili powder, oregano, cumin, paprika, and cayenne (if using); generously season with salt and black pepper. Pour in tomatoes and beans and bring to a boil. Reduce heat to medium and simmer, stirring occasionally, until flavors have melded and liquid is slightly reduced, about 20 minutes; season with salt and black pepper, if needed.",
+                "Ladle chili into bowls. Top with cheese, sour cream, and scallions."
+            ]
+        },
+        {
+            "foodname": "Ritz Cracker Chicken Casserole",
+            "id": 8,
+            "genre": "American",
+            "servingsize": "4-6",
+            "preptime": "10 minutes",
+            "cooktime": "25-30 minutes",
+            "ingredients": [
+                "Cooking spray",
+                "1 (10.75-oz.) can condensed cream of chicken soup",
+                "3/4 cup (4%) cottage cheese",
+                "3/4 cup sour cream",
+                "1/4 cup sliced chives",
+                "3/4 tsp. garlic powder",
+                "1/4 tsp. cayenne pepper",
+                "4 cups cooked shredded chicken",
+                "1 cup frozen peas, thawed",
+                "Freshly ground black pepper",
+                "1/2 cup shredded cheddar",
+                "31 Ritz crackers (from 1 sleeve), crushed (about 1 1/3 c.)",
+                "3 Tbsp. unsalted butter, melted",
+                "Chopped fresh parsley, for serving (optional)"
+            ],
+            "directions": [
+                "Preheat oven to 400°. Lightly grease an 11' x 8' baking dish with cooking spray. In a large bowl, whisk soup, cottage cheese, sour cream, chives, garlic powder, and cayenne until smooth. Fold in chicken and peas; season with black pepper. Transfer to prepared baking dish and smooth in an even layer. Top with cheddar.",
+                "In a medium bowl, combine cracker crumbs and butter. Sprinkle over cheese.",
+                "Bake casserole until browned and bubbling, 25 to 30 minutes.",
+                "Let stand 5 minutes. Top with parsley (if using)."
+            ]
+        },
+        {
+            "foodname": "Twice Baked Potatoes",
+            "id": 9,
+            "genre": "American",
+            "servingsize": 8,
+            "preptime": "20 minutes",
+            "cooktime": "1 hour 10 minutes",
+            "ingredients": [
+                "4 russet potatoes (1/2 lb. each)",
+                "1 Tbsp olive oil",
+                "4 oz bacon",
+                "4 Tbsp butter",
+                "1/2 cup sour cream",
+                "1/4 cup milk",
+                "1/2 tsp salt + a pinch to season the potato skins",
+                "1/4 tsp freshly cracked black pepper",
+                "3 green onions, sliced",
+                "1 1/4 cup shredded cheddar cheese, divided"
+            ],
+            "directions": [
+                "Preheat the oven to 400°F. Wash and dry the potatoes well, then use a fork to prick each potato several times.",
+                "Place the potatoes on a parchment lined baking sheet. Drizzle the olive oil over the potatoes, then use your hands or a silicone brush to brush the oil over each potato until it is fully coated. Season the potatoes with a pinch of salt.",
+                "Bake in the preheated oven for 50-60 minutes, or until the potatoes can be pierced easily with a fork. Total baking time will depend on the size of your potatoes.",
+                "While the potatoes are baking, cook the bacon in a skillet over medium heat until brown and crispy. Remove the cooked bacon from the skillet and allow it to drain on a paper-towel lined plate. Once cool enough to handle, rough chop the bacon into smaller pieces.",
+                "Once the potatoes are done baking, remove them from the oven and allow them to cool slightly. When the potatoes are cool enough to handle, slice them in half lengthwise. Carefully scoop out the potato flesh, leaving a thin rim of potato (about ¼ inch rim) around the edges to help the skin hold its shape.",
+                "Place the scooped out potato flesh in a large bowl and add the butter, sour cream, milk, salt, and pepper. Use a potato masher or hand mixer to blend the potatoes until light and fluffy.",
+                "Add the chopped bacon, half of the sliced green onions, and 1/2 cup of the shredded cheddar cheese to the mashed potatoes, then fold to combine.",
+                "Fill the potato skins with about 1/3 cup of the potato mixture, then sprinkle the remaining cheddar cheese over the top of each potato.",
+                "Bake the potatoes in the oven a second time, just until heated through and the cheddar cheese is melted on top, about 20 minutes. Top with the remaining green onions and enjoy!"
+            ]
+        },
+        {
+            "foodname": "Garlic Butter Pizza Taquitos",
+            "id": 10,
+            "genre": "Mexican",
+            "servingsize": 8,
+            "preptime": "5 minutes",
+            "cooktime": "10 minutes",
+            "ingredients": [
+                "Canola Oil for frying the food",
+                "1/2 teaspoon of dried parsley",
+                "1/2 tablespoon of garlic powder",
+                "4 tablespoon of butter",
+                "8 thick taco-sized flour Tortillas",
+                "Pepperoni slices",
+                "Jar of pizza sauce",
+                "2 cups of shredded mozzarella cheese"
+            ],
+            "directions": [
+                "Put the canola oil into a medium-sized pan and flatten it all over the surface. Use medium heat, not too high or low.",
+                "Then, melt the butter and mix powdered garlic and parsley. To apply melted butter to one side of each tortilla, use a brush or spoon, and do it slowly. On the side of the buttered tortilla, put as many slices of pepperoni as you want.",
+                "And the next is, put a thick layer of grated mozzarella cheese on the top of the tortilla.",
+                "Roll the tortillas firmly to make the cheese still in the right form.",
+                "Cook for about a minute on each side or get the outside to gold. Then, remove the oil using a paper-lined plate. The last is, enjoy your Garlic Butter Pizza Taquitos with pizza sauce for dipping."
+            ]
+        },
+        {
+            "foodname": "Homemade Stromboli",
+            "id": 11,
+            "genre": "Italian",
+            "servingsize": 8,
+            "preptime": "10 minutes",
+            "cooktime": "30 minutes",
+            "ingredients": [
+                "1 can refrigerated pizza crust (such as Pillsbury, (13.8 oz))",
+                "3 tablespoons butter (unsalted, melted)",
+                "2 cloves garlic (minced)",
+                "2 tablespoons parsley (chopped)",
+                "8 ounces deli meat (such as ham, salami, or peperoni slices)",
+                "6 ounces mozzarella cheese (shredded)"
+            ],
+            "directions": [
+                "Preheat Oven: Preheat your oven to 350°F. Line a baking sheet with parchment paper.",
+                "Mix Butter and Herbs: In a small bowl add the melted butter, garlic, parsley and whisk well.",
+                "Prepare Dough: Unroll the pizza dough onto the prepared baking sheet. Using a brush, brush the ½ the butter mixture over the entire surface of the pizza dough to within ½ inch of the edges.",
+                "Layer Filling: Layer with meats and shredded mozzarella cheese, leaving a 1-inch border around.",
+                "Roll up the Dough: Roll up jelly-roll style, starting with a long side, then pinch the seam to seal. Tuck the ends under and place it seam side down on the prepared baking sheet.",
+                "Brush with Butter: Brush the top of the roll with remaining butter mixture.",
+                "Bake and Serve: Bake for 25 to 30 minutes or until golden brown. Garnish with parsley if preferred. Cool for 5 minutes before slicing. Serve warm."
+            ]
+        },
+        {
+            "foodname": "Baked Potato Soup",
+            "id": 12,
+            "genre": "American",
+            "servingsize": 8,
+            "preptime": "10 minutes",
+            "cooktime": "35 minutes",
+            "ingredients": [
+                "4 large russet potatoes, equal to 2 lbs.",
+                "3/4 teaspoon salt",
+                "6 slices thick cut bacon",
+                "1 large yellow onion",
+                "3 cloves garlic, minced",
+                "2 Tablespoon butter",
+                "1/4 cup flour",
+                "3 1/2 cups Chicken broth",
+                "2 cups half and half",
+                "3/4 cup sour cream",
+                "1/2 teaspoon pepper",
+                "2 cups shredded cheddar cheese",
+                "1/8 cup chives, finely diced"
+            ],
+            "directions": [
+                "Shred the cheese from a block, measure out the sour cream and half and half. Let them all sit out at room temperature.",
+                "Cut the bacon into 1-inch squares with kitchen shears. Cook in a large pot over low heat, rotating occasionally. They'll overlap at first but will shrink down as they cook. Remove and set aside once crisp. Leave 2 Tablespoons of drippings in the pot.",
+                "While the bacon cooks, peel the potatoes and cut them into 1-inch cubes. Add to a stock pot and cover the potatoes with 1 inch of water. Add the salt and boil gently for 20 minutes or until very fork tender. Drain, then gently mash. Set aside.",
+                "Add the diced onion to the pot with the bacon drippings and cook until softened, about 5 minutes.",
+                "Add garlic and butter and cook 1 more minute.",
+                "Whisk in flour, use a silicone spatula to stir as the flour cooks for 1 full minute to remove the raw flour taste.",
+                "Add the chicken broth. Use a silicone spatula to loosen any bacon remnants from the bottom of the pot, this will add flavor.",
+                "Slowly add the half and half. Bring to a boil, then reduce to a simmer.",
+                "Stir in the potatoes, then mix in the sour cream, and pepper.",
+                "Remove from heat. If desired, blend with an immersion blender or transfer it to a blender in batches. (I prefer to do this for a creamier and smoother consistency.)",
+                "Gradually sprinkle with shredded cheese and stir until combined. Make sure the base of the soup isn’t too hot or the cheese won’t melt creamy and smooth. The soup will continue to thicken as it sits.",
+                "Garnish with chives and bacon, serve!"
+            ]
+        },
+        {
+            "foodname": "Quick Tamale Hash",
+            "id": 13,
+            "genre": "Mexican",
+            "servingsize": 1,
+            "preptime": "5 minutes",
+            "cooktime": "10 minutes",
+            "ingredients": [
+                "1 tablespoon avocado oil",
+                "2 tamales, cut into 1/2-inch cubes",
+                "2 tablespoons homemade Mexican tomato sauce",
+                "salt to taste"
+            ],
+            "directions": [
+                "Heat oil in a skillet over medium heat.",
+                "Add chopped tamales and fry until golden brown, about 5 minutes.",
+                "Add tomato sauce and season with salt; cover and cook until tamales are soft, about 3 minutes.",
+                "Serve immediately."
+            ]
+        },
+        {
+            "foodname": "Gluten Free Mexican Lasagna",
+            "id": 14,
+            "genre": "Mexican",
+            "servingsize": 8,
+            "preptime": "20 minutes",
+            "cooktime": "20 minutes",
+            "ingredients": [
+                "2 (15 ounce) cans chili without beans (such as Wolf®)",
+                "1 (15 ounce) can black beans, drained",
+                "1 small onion, chopped",
+                "12 corn tortillas, or as needed",
+                "3 cups shredded sharp Cheddar cheese, divided"
+            ],
+            "directions": [
+                "Preheat oven to 350 degrees F (175 degrees C). Grease a 9x13-inch baking dish.",
+                "Mix chili, black beans, and onion together in a bowl.",
+                "Layer 4 tortillas in the bottom of the prepared baking dish; cover with 1 cup Cheddar cheese. Spoon half the chili mixture over cheese layer. Repeat 2 more layers with the remaining ingredients, ending with Cheddar cheese on top. Cover dish with aluminum foil.",
+                "Bake in the preheated oven until lasagna is bubbling, 20 to 30 minutes."
+            ]
+        },
+        {
+            "foodname": "Chicken Alfredo Garlic Bread Pizza",
+            "id": 15,
+            "genre": "Italian",
+            "servingsize": 12,
+            "preptime": "15 minutes",
+            "cooktime": "30 minutes",
+            "ingredients": [
+                "1 loaf store-bought garlic bread",
+                "4 tablespoons butter",
+                "1 tablespoon olive oil",
+                "2 cups heavy cream",
+                "3/4 teaspoon salt",
+                "1/4 teaspoon black pepper",
+                "1/8 teaspoon cayenne pepper",
+                "1/2 teaspoon dried basil",
+                "1/2 teaspoon dried oregano",
+                "1/2 teaspoon fresh lemon zest",
+                "1 1/2 cups chopped rotisserie chicken or leftover chicken",
+                "2 egg yolks",
+                "3 cups shredded mozzarella cheese",
+                "1 cup grated Parmesan cheese"
+            ],
+            "directions": [
+                "Preheat the oven to 375 degrees Fahrenheit (190 degree Celsius).",
+                "Place the garlic bread on a parchment-lined baking sheet and bake for 15 minutes.",
+                "Remove the bread from the oven and spread the bread evenly with 1½ cups of the shredded mozzarella cheese. Set aside.",
+                "Meanwhile, make the alfredo sauce by melting butter and oil in a medium-size saucepan.",
+                "Add the heavy cream, salt, pepper, cayenne, basil, and oregano to the saucepan and bring to a simmer.",
+                "In a small bowl, whisk 2 egg yolks along with ¼ cup of the hot cream sauce (tempering the yolks) from the pan.",
+                "Add the tempered egg yolks into the saucepan, and whisk to combine.",
+                "Gently simmer the sauce to thicken, add the grated Parmesan cheese, and whisk to melt.",
+                "Add the fresh lemon zest to the sauce and stir to combine.",
+                "Chop the rotisserie chicken into bite-sized pieces (approximately 1-1 1/2 cups) and spread the chicken evenly over the bread.",
+                "Spoon the alfredo sauce evenly over the chicken and top with the remaining shredded mozzarella cheese.",
+                "Bake again for 15 minutes until golden and the cheese has melted.",
+                "Cut into pieces and serve."
+            ]
+        }
+    ]
+}

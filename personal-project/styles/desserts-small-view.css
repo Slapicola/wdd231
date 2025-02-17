@@ -1,0 +1,135 @@
+@import url('https://fonts.googleapis.com/css2?family=Delius+Swash+Caps&family=Knewave&family=Noto+Sans+Mono:wght@100..900&display=swap');
+
+* {
+    background-color: #F1F2E3;
+    color: #363537;
+}
+
+h1, h2, h4 {
+    font-family: "Delius Swash Caps", serif;;
+}
+
+h1 {
+    font-size: 45px;
+}
+
+header {
+    display: flex;
+    justify-content: space-between;
+    border-bottom: 4px dashed black;
+}
+
+nav {
+    
+}
+
+nav a {
+    padding: 15px;
+    font-size: 25px;
+    font-family: "Noto Sans Mono";
+
+}
+main {
+    display: grid;
+    grid-template-areas: 
+    "buttons buttons"
+    "cards aside";
+}
+
+.foodGenres {
+    grid-area: buttons;
+    display: flex;
+    justify-content: space-evenly;
+    padding: 15px;
+}
+
+.foodGenres button, .buttonArea button {
+    background-color: #59534A;
+    border: none;
+    border-radius: 1rem;
+    padding: 10px;
+    font-size: 20px;
+    width: 250px;
+    color: white;
+}
+
+.foodGenres button:hover, .buttonArea button:hover {
+    background-color: #81796c;
+    border: none;
+    border-radius: 1rem;
+    padding: 10px;
+    font-size: 20px;
+    width: 250px;
+    color: white;
+}
+
+
+#dessertRecipesArea {
+    grid-area: cards;
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(400px, 1fr));
+    gap: 20px;
+    align-items: start;
+}
+
+#dessertRecipesArea div {
+    border: 2px solid #363537;
+    padding: 20px;
+    height: fit-content;
+
+}
+
+#dessertRecipesArea div .favorite-btn {
+    border: none;
+}
+
+#dessertRecipesArea div h3 {
+    text-align: center;
+    font-family: "Noto Sans Mono";
+    font-size: 20px;
+}
+
+#dessertRecipesArea div ul, #dessertRecipesArea div p{
+    font-family: "Noto Sans Mono";
+}
+
+#dessertRecipesArea div li {
+    font-family: "Knewave";
+}
+
+.buttonArea {
+    display: flex;
+    justify-content: center;
+}
+
+#favorites {
+    grid-area: aside;
+    list-style-type: number;
+    padding: 20px;
+    font-family: "Noto Sans Mono";
+}
+
+dialog {
+    position: relative;
+    width: 500px;
+}
+
+dialog ul {
+    list-style-type: number;
+}
+
+dialog li {
+    padding-bottom: 10px;
+}
+
+dialog button {
+    position: absolute;
+    top: 20px;
+    right: 20px;
+    background-color: #59534A;
+    border: none;
+    border-radius: 0.25rem;
+    padding: 10px;
+    font-size: 20px;
+    color: white;
+}

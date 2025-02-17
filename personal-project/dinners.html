@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Homemade Recipes Dinner Recipes Page</title>
+    <meta name="description" content="WDD231, Sophia Lapicola, This is the dinner recipes page for my recipes website.">
+    <meta name="author" content="Sophia Lapicola">
+    <meta property="og:title" content="Homemade Recipes Dinners Page">
+    <meta property="og:type" content="website">
+    <meta property="og:image" content="https://img.sndimg.com/food/image/upload/q_92,fl_progressive/v1/img/recipes/74/48/3/nxAqazgQa2Lq3bQreAAU_098-grilled-beer-chicken.jpg">
+    <meta property="og:url" content="http://127.0.0.1:5500/personal-project/index.html">
+    <meta name="twitter:card" content="summary">
+    <meta name="twitter:site" content="website">
+    <meta name="twitter:title" content="Homemade Recipes Home Page">
+    <meta name="twitter:description" content="Get quick and easy recipes for dinners or desserts.">
+    <meta name="twitter:image" content="https://img.sndimg.com/food/image/upload/q_92,fl_progressive/v1/img/recipes/74/48/3/nxAqazgQa2Lq3bQreAAU_098-grilled-beer-chicken.jpg">
+    <meta name="twitter:image:alt" content="A dinner plate with roasted chicken, greenbeans and potato wedges.">
+    <link rel="icon" href="favicon.ico">
+    <link rel="stylesheet" href="styles/dinners-small-view.css">
+    <link rel="stylesheet" href="styles/dinners-large-view.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Delius+Swash+Caps&family=Knewave&family=Noto+Sans+Mono:wght@100..900&display=swap" rel="stylesheet">
+    <script src="data/dinnerRecipes.js" type="module" defer></script>
+</head>
+<body>
+    <header>
+        <h1>Homemade Recipes</h1>
+
+        <nav>
+            <a href="index.html">Home</a>
+            <a href="dinners.html">Dinners</a>
+            <a href="desserts.html">Desserts</a>
+            <a href="subscribe.html">Subscribe</a>
+        </nav>
+    </header>
+
+    <main>
+        <div class="foodGenres">
+            <button id="all">All Recipes</button>
+            <button id="italian">Italian</button>
+            <button id="mexican">Mexican</button>
+            <button id="american">American</button>
+        </div>
+        <div id="dinnerRecipesArea"></div>
+        <aside id="favorites"></aside>
+
+        <!-- dialog box -->
+        <dialog>
+            <section id="directions">
+
+            </section>
+            <button id="close">X</button>
+         </dialog>
+        
+    </main>
+
+    <footer>
+        <h4>Homemade Recipes</h4>
+        <a href="attributions.html">Attributions</a>
+
+    </footer>
+    
+</body>
+</html>

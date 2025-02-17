@@ -1,0 +1,76 @@
+@import url('https://fonts.googleapis.com/css2?family=Delius+Swash+Caps&family=Knewave&family=Noto+Sans+Mono:wght@100..900&display=swap');
+
+* {
+    background-color: #F1F2E3;
+    color: #363537;
+}
+
+h1, h2, h3, h4 {
+    font-family: "Delius Swash Caps", serif;;
+}
+
+h1 {
+    font-size: 45px;
+}
+
+header {
+    display: flex;
+    justify-content: space-between;
+    border-bottom: 4px dashed black;
+}
+
+nav {
+    
+}
+
+nav a {
+    padding: 15px;
+    font-size: 25px;
+    font-family: "Noto Sans Mono";
+
+}
+
+nav a:hover {
+    background-color: aqua;
+}
+
+main {
+    margin: 0 auto;
+    max-width: fit-content;
+}
+
+h2 {
+    text-align: center;
+    font-size: 30px;
+}
+
+#subscriptionForm {
+    border: 2px solid #363537;
+    max-width: fit-content;
+}
+
+form label {
+    display: block;
+    padding: 15px;
+    font-size: 20px;
+    font-family: "Noto Sans Mono";
+}
+
+input[type=text],
+input[type=email]
+{
+    display: block;
+    width: 200px;
+    border: 2px solid #363537;
+}
+
+input[type=submit]
+{
+    background-color: #81796c;
+    border: none;
+    border-radius: 1rem;
+    padding: 10px;
+    font-size: 20px;
+    width: 200px;
+    color: white;
+}
