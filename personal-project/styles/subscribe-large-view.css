@@ -1,0 +1,28 @@
+@media (min-width: 321px) {
+    nav {
+        display: flex;
+        justify-content: flex-end;
+        flex-direction: row;
+    }
+
+    #menu {
+        display: none;
+    }
+
+    header {
+        display: flex;
+        justify-content: space-between;
+        border-bottom: 4px dashed black;
+    }
+
+    input[type=checkbox]
+    {
+        width: 15px;
+        height: 15px;
+    }
+
+    nav a {
+        display: block;
+        flex: 1 1 100%;
+    }
+}

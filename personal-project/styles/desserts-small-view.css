@@ -5,6 +5,10 @@
     color: #363537;
 }
 
+.active {
+    background-color: rgba(255, 255, 255, 0.5);
+}
+
 h1, h2, h4 {
     font-family: "Delius Swash Caps", serif;;
 }
@@ -14,33 +18,60 @@ h1 {
 }
 
 header {
-    display: flex;
-    justify-content: space-between;
+    display: block;
     border-bottom: 4px dashed black;
 }
 
 nav {
-    
+    display: flex;
+    flex-direction: column;
+    align-items: center;
 }
 
 nav a {
+    display: none;
     padding: 15px;
     font-size: 25px;
     font-family: "Noto Sans Mono";
 
 }
+
+nav a:hover {
+    border-bottom: black dotted 4px;
+    text-decoration: none;
+}
+
+#menu {
+    font-size: 2rem;
+    border: 0;
+    background: none;
+    position: absolute;
+    top: 0.5rem;
+    right: 0.5rem;
+}
+
+#menu::before {
+    content: "\002630";
+}
+
+.open a {
+    display: block;
+}
+
 main {
     display: grid;
     grid-template-areas: 
-    "buttons buttons"
-    "cards aside";
+    "buttons"
+    "aside"
+    "cards";
 }
 
 .foodGenres {
     grid-area: buttons;
-    display: flex;
-    justify-content: space-evenly;
+    /* display: flex;
+    flex-direction: column; */
     padding: 15px;
+    gap: 10px;
 }
 
 .foodGenres button, .buttonArea button {
@@ -49,27 +80,21 @@ main {
     border-radius: 1rem;
     padding: 10px;
     font-size: 20px;
+    margin: 10px;
     width: 250px;
     color: white;
 }
 
 .foodGenres button:hover, .buttonArea button:hover {
     background-color: #81796c;
-    border: none;
-    border-radius: 1rem;
-    padding: 10px;
-    font-size: 20px;
-    width: 250px;
-    color: white;
 }
 
 
 #dessertRecipesArea {
-    grid-area: cards;
     display: grid;
-    grid-template-columns: repeat(auto-fit, minmax(400px, 1fr));
+    grid-template-columns: 1fr;
     gap: 20px;
-    align-items: start;
+
 }
 
 #dessertRecipesArea div {

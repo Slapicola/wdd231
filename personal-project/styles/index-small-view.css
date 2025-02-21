@@ -14,24 +14,49 @@ h1 {
 }
 
 header {
-    display: flex;
-    justify-content: space-between;
+    display: block;
     border-bottom: 4px dashed black;
 }
 
 nav {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
     
 }
 
 nav a {
+    display: none;
     padding: 15px;
     font-size: 25px;
     font-family: "Noto Sans Mono";
 
 }
 
+.active {
+    background-color: rgba(255, 255, 255, 0.5);
+}
+
 nav a:hover {
-    background-color: aqua;
+    border-bottom: black dotted 4px;
+    text-decoration: none;
+}
+
+#menu {
+    font-size: 2rem;
+    border: 0;
+    background: none;
+    position: absolute;
+    top: 0.5rem;
+    right: 0.5rem;
+}
+
+#menu::before {
+    content: "\002630";
+}
+
+.open a {
+    display: block;
 }
 
 main {
@@ -43,6 +68,16 @@ main {
     border-bottom: 3px dashed black;
     padding-bottom: 15px;
 
+}
+
+.imageArea {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.imageArea img {
+    width: 100%;
+    padding-bottom: 10px;
 }
 
 .ourfavorites {

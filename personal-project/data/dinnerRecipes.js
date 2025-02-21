@@ -1,23 +1,38 @@
-import { displayDinnerRecipes, toggleFavorite, displayFavorites } from "./recipes.mjs";
+import { displayDinnerRecipes, toggleFavorite } from "./recipes.mjs";
 
 window.onload = () => {
     getDinnerRecipes();
+
+    const tabs = document.querySelectorAll(".menu-tab");
+
+    const activeTab = localStorage.getItem("activeTab");
+    if (activeTab) {
+        const activeElement = document.querySelector(`.menu-tab[data-tab="${activeTab}"]`);
+        if (activeElement) {
+            activeElement.classList.add("active");
+        }
+    }
     
-    const favoriteButtons = document.querySelectorAll(".favorite-btn");
+    tabs.forEach(tab => {
+        tab.addEventListener("click", function () {
+            tabs.forEach(navTab => navTab.classList.remove("active"));
+            this.classList.add("active");
 
-    displayFavorites();
-    // console.log('Favorite buttons:', favoriteButtons);
-
-    favoriteButtons.forEach((button, index) => {
-        // console.log('Adding event listener to button:', button);
-        button.addEventListener("click", () => {
-            const recipe = dinnerrecipes[index].id;
-            console.log('Button clicked for recipe:', recipe);
-            toggleFavorite(recipe);
-            displayFavorites();
-        })
+            const tabId = this.getAttribute("data-tab");
+            localStorage.setItem("activeTab", tabId);
+        });
     });
+    
 };
+
+const hamButton = document.querySelector('#menu');
+const navigation = document.querySelector('nav');
+
+hamButton.addEventListener('click', () => {
+	navigation.classList.toggle('open');
+	hamButton.classList.toggle('open');
+});
+
 
 const dinnerurl = "./data/dinners.json";
 let dinnerrecipes = [];
@@ -28,6 +43,17 @@ async function getDinnerRecipes() {
         const info = await response.json();
         dinnerrecipes = info.dinnerrecipes;
         displayDinnerRecipes(dinnerrecipes);
+        
+        const favoriteButtons = document.querySelectorAll(".favorite-btn");
+        
+        favoriteButtons.forEach((button, index) => {
+            console.log('Adding event listener to button:', button);
+            button.addEventListener("click", () => {
+                const recipe = dinnerrecipes[index].id;
+                console.log('Button clicked for recipe:', recipe);
+                toggleFavorite(recipe);
+            })
+        });
     } catch (error) {
         console.error("Error fetching data:", error);
     }
@@ -76,13 +102,3 @@ americanButton.addEventListener("click", () => {
     })
 
 })
-
-
-
-
-
-// const stepsButton = document.querySelector("#stepsButton");
-
-// stepsButton.addEventListener("click", () => {
-//     displayRecipeSteps(dinnerrecipes);
-// });

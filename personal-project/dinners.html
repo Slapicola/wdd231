@@ -22,29 +22,30 @@
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Delius+Swash+Caps&family=Knewave&family=Noto+Sans+Mono:wght@100..900&display=swap" rel="stylesheet">
-    <script src="data/dinnerRecipes.js" type="module" defer></script>
+    <script src="data/dinnerRecipes.js" type="module"></script>
 </head>
 <body>
     <header>
         <h1>Homemade Recipes</h1>
+        <button type="button" title="menu" id="menu"></button>
 
         <nav>
-            <a href="index.html">Home</a>
-            <a href="dinners.html">Dinners</a>
-            <a href="desserts.html">Desserts</a>
-            <a href="subscribe.html">Subscribe</a>
+            <a href="index.html" class="menu-tab" data-tab="tab1">Home</a>
+            <a href="dinners.html" class="menu-tab" data-tab="tab2">Dinners</a>
+            <a href="desserts.html" class="menu-tab" data-tab="tab3">Desserts</a>
+            <a href="subscribe.html" class="menu-tab" data-tab="tab4">Subscribe</a>
         </nav>
     </header>
 
     <main>
         <div class="foodGenres">
-            <button id="all">All Recipes</button>
-            <button id="italian">Italian</button>
-            <button id="mexican">Mexican</button>
-            <button id="american">American</button>
+            <button type="button" id="all">All Recipes</button>
+            <button type="button" id="italian">Italian</button>
+            <button type="button" id="mexican">Mexican</button>
+            <button type="button" id="american">American</button>
         </div>
         <div id="dinnerRecipesArea"></div>
-        <aside id="favorites"></aside>
+        <aside id="dinnerFavorites"></aside>
 
         <!-- dialog box -->
         <dialog>

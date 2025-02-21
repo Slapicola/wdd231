@@ -1,136 +1,30 @@
-* {
-    background-color: #F1F2E3;
-    color: #363537;
-}
+@media (min-width: 321px){
+    header {
+        display: flex;
+        justify-content: space-between;
+        border-bottom: 4px dashed black;
+    }
+    nav {
+        display: flex;
+        justify-content: flex-end;
+        flex-direction: row;
+    }
 
-h1, h2, h4 {
-    font-family: "Delius Swash Caps", serif;;
-}
+    nav a {
+        display: block;
+        flex: 1 1 100%;
+    }
 
-h1 {
-    font-size: 45px;
-}
+    .foodGenres {
+        flex-direction: row;
+        justify-content: space-evenly;
+    }
 
-header {
-    display: flex;
-    justify-content: space-between;
-    border-bottom: 4px dashed black;
-}
+    #dinnerRecipesArea {
+        grid-template-columns: repeat(auto-fit, minmax(500px, 2fr));
+    }
 
-nav {
-
-}
-
-nav a {
-    padding: 15px;
-    font-size: 25px;
-    font-family: "Noto Sans Mono";
-
-}
-main {
-    display: grid;
-    /* grid-template-columns: 1fr; */
-    grid-template-areas: 
-    "buttons buttons"
-    "cards aside";
-}
-
-.foodGenres {
-    grid-area: buttons;
-    display: flex;
-    /* flex-direction: column; */
-    justify-content: space-evenly;
-    padding: 15px;
-}
-
-.foodGenres button, .buttonArea button {
-    background-color: #59534A;
-    border: none;
-    border-radius: 1rem;
-    padding: 10px;
-    font-size: 20px;
-    width: 250px;
-    color: white;
-}
-
-.foodGenres button:hover, .buttonArea button:hover {
-    background-color: #81796c;
-    border: none;
-    border-radius: 1rem;
-    padding: 10px;
-    font-size: 20px;
-    width: 250px;
-    color: white;
-}
-
-
-#dinnerRecipesArea {
-    grid-area: cards;
-    display: grid;
-    /* grid-template-columns: 1fr; */
-    grid-template-columns: repeat(auto-fit, minmax(500px, 1fr));
-    gap: 20px;
-    align-items: start;
-}
-
-#dinnerRecipesArea div {
-    border: 2px solid #363537;
-    padding: 20px;
-    height: fit-content;
-
-}
-
-#dinnerRecipesArea div .favorite-btn {
-    border: none;
-}
-
-#dinnerRecipesArea div h3 {
-    text-align: center;
-    font-family: "Noto Sans Mono";
-    font-size: 20px;
-}
-
-#dinnerRecipesArea div ul, #dinnerRecipesArea div p{
-    font-family: "Noto Sans Mono";
-}
-
-#dinnerRecipesArea div li {
-    font-family: "Knewave";
-}
-
-.buttonArea {
-    display: flex;
-    justify-content: center;
-}
-
-#favorites {
-    grid-area: aside;
-    list-style-type: number;
-    padding: 20px;
-    font-family: "Noto Sans Mono";
-}
-
-dialog {
-    position: relative;
-    width: 500px;
-}
-
-dialog ul {
-    list-style-type: number;
-}
-
-dialog li {
-    padding-bottom: 10px;
-}
-
-dialog button {
-    position: absolute;
-    top: 20px;
-    right: 20px;
-    background-color: #59534A;
-    border: none;
-    border-radius: 0.25rem;
-    padding: 10px;
-    font-size: 20px;
-    color: white;
+    #menu {
+        display: none;
+    }
 }

@@ -1,0 +1,31 @@
+@media (min-width: 321px) {
+    #menu {
+        display: none;
+    }
+
+    nav {
+        display: flex;
+        justify-content: flex-end;
+        flex-direction: row;
+    }
+
+    nav a {
+        display: block;
+        flex: 1 1 100%;
+    }
+
+    header {
+        display: flex;
+        justify-content: space-between;
+        border-bottom: 4px dashed black;
+    }
+
+    .foodGenres {
+        flex-direction: row;
+        justify-content: space-evenly;
+    }
+
+    #dessertRecipesArea {
+        grid-template-columns: repeat(auto-fit, minmax(500px, 2fr));
+    }
+}

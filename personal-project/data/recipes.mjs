@@ -1,34 +1,3 @@
-// const dinnerRecipes = {
-//     dinnerurl: "./data/dinners.json"
-// };
-
-// const dessertRecipes = {
-//     desserturl: "./data/desserts.json"
-// };
-
-// async function getDinnerRecipes(url) {
-//     try {
-//         const response = await fetch(url);
-//         const info = await response.json();
-//         displayDinnerRecipes(info.dinnerrecipes);
-//     } catch (error) {
-//         console.error("Error fetching data:", error);
-//     }
-
-// }
-
-// async function getDessertRecipes(url) {
-//     try {
-//         const response = await fetch(url);
-//         const info = await response.json();
-//         displayDessertRecipes(info.dessertrecipes);
-//     } catch (error) {
-//         console.error("Error fetching data:", error);
-//     }
-
-// }
-
-
 
 function displayDinnerRecipes(dinnerRecipes) {
     const recipesArea = document.getElementById('dinnerRecipesArea');
@@ -44,7 +13,10 @@ function displayDinnerRecipes(dinnerRecipes) {
             <p>Serving Size: ${recipe.servingsize}</p>
             <p>Prep Time: ${recipe.preptime}</p>
             <p>Cook Time: ${recipe.cooktime}</p>
-            <ul>Ingredients: ${ingredientsList}</ul>
+            <section class="ingredientsList">
+                <p>Ingredients:</p>
+                <ul>${ingredientsList}</ul>
+            </section>
             <section class="buttonArea">
             <button type="button" class="stepsButton">Steps</button>
             </section>`;
@@ -58,14 +30,6 @@ function displayDinnerRecipes(dinnerRecipes) {
     } else {
         console.error("recipesArea element not found!");
     }
-}
-
-
-function cleanAndGetFavorites() {
-    let favorites = JSON.parse(localStorage.getItem('favoriteRecipes')) || [];
-    favorites = favorites.filter(recipe => recipe !== null && recipe !== undefined);
-    localStorage.setItem('favorites', JSON.stringify(favorites));
-    return favorites;
 }
 
 function toggleFavorite(recipe) {
@@ -92,24 +56,6 @@ function toggleFavorite(recipe) {
     localStorage.setItem("favoriteRecipes", JSON.stringify(favorites));
 }
 
-function displayFavorites() {
-    const favoritesList = document.querySelector("#favorites");
-    favoritesList.innerHTML = "";
-
-    const favorites = cleanAndGetFavorites();
-    console.log('Favorite recipe IDs:', favorites);
-
-    favorites.forEach(recipe => {
-        const recipeName = getDinnerRecipes(dinnerRecipes.dinnerurl).find(r => r.id === recipe);
-        if (recipeName) {
-            console.log('Matching recipe found:', recipe);
-            const li = document.createElement("li");
-            li.innerHTML = recipeName.foodname;
-            favoritesList.appendChild(li);
-        }
-    })
-}
-
 function displayDessertRecipes(url) {
     const recipesArea = document.getElementById('dessertRecipesArea');
 
@@ -125,7 +71,10 @@ function displayDessertRecipes(url) {
                         <p>Serving Size: ${recipe.servingsize}</p>
                         <p>Prep Time: ${recipe.preptime}</p>
                         <p>Cook Time: ${recipe.cooktime}</p>
-                        <ul>Ingredients: ${ingredientsList}</ul>
+                        <section class="ingredientsList">
+                            <p>Ingredients:</p>
+                            <ul>${ingredientsList}</ul>
+                        </section>
                         <section class="buttonArea">
                             <button class="stepsButton">Steps</button>
                         </section>`;
@@ -162,7 +111,7 @@ function displayRecipeSteps(recipe) {
 
 
 
-export { displayDinnerRecipes, toggleFavorite, displayFavorites, displayDessertRecipes };
+export { displayDinnerRecipes, toggleFavorite, displayDessertRecipes};
 
 
 

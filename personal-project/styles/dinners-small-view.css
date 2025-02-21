@@ -1,40 +1,85 @@
 @import url('https://fonts.googleapis.com/css2?family=Delius+Swash+Caps&family=Knewave&family=Noto+Sans+Mono:wght@100..900&display=swap');
 
-@media (max-width: 320px) {
-    
-    nav {
-        display: none;
-    }
-    
+* {
+    background-color: #F1F2E3;
+    color: #363537;
+}
+
+h1, h2, h4 {
+    font-family: "Delius Swash Caps", serif;;
+}
+
+h1 {
+    font-size: 45px;
+}
+
+header {
+    display: block;
+    border-bottom: 4px dashed black;
+}
+
+nav {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+
+}
+
     nav a {
+        display: none;
         padding: 15px;
         font-size: 25px;
         font-family: "Noto Sans Mono";
     
     }
-    main {
-        grid-template-columns: 1fr;
-        /* grid-template-areas: 
-        "buttons buttons"
-        "cards aside"; */
+
+    nav a:hover {
+        border-bottom: black dotted 4px;
+        text-decoration: none;
     }
+
+    #menu {
+        font-size: 2rem;
+        border: 0;
+        background: none;
+        position: absolute;
+        top: 0.5rem;
+        right: 0.5rem;
+    }
+
+    #menu::before {
+        content: "\002630";
+    }
+
+    .open a {
+        display: block;
+    }
+
+    .active {
+        background-color: rgba(255, 255, 255, 0.5);
+    }
+    
     
     .foodGenres {
+        /* grid-area: buttons; */
+        /* display: block; */
         display: flex;
         flex-direction: column;
+        padding: 15px;
     }
     
-    /* .foodGenres button, .buttonArea button {
+    .foodGenres button, .buttonArea button {
         background-color: #59534A;
         border: none;
         border-radius: 1rem;
         padding: 10px;
         font-size: 20px;
-        width: 75%;
+        width: 250px;
+        margin: 5px;
         color: white;
-    } */
+    }
     
-    /* .foodGenres button:hover, .buttonArea button:hover {
+    .foodGenres button:hover, .buttonArea button:hover {
         background-color: #81796c;
         border: none;
         border-radius: 1rem;
@@ -42,28 +87,26 @@
         font-size: 20px;
         width: 250px;
         color: white;
-    } */
+    }
     
     
     #dinnerRecipesArea {
-        grid-area: cards;
         display: grid;
         grid-template-columns: 1fr;
-        /* grid-template-columns: repeat(auto-fit, minmax(500px, 1fr)); */
         gap: 20px;
     }
     
-    /* #dinnerRecipesArea div {
+    #dinnerRecipesArea div {
         border: 2px solid #363537;
         padding: 20px;
         height: fit-content;
-        grid-template-columns: 1fr;
+        /* grid-template-columns: 1fr; */
     
-    } */
+    }
     
-    /* #dinnerRecipesArea div .favorite-btn {
+    #dinnerRecipesArea div .favorite-btn {
         border: none;
-    } */
+    }
     
     #dinnerRecipesArea div h3 {
         text-align: center;
@@ -85,7 +128,7 @@
     }
     
     #favorites {
-        grid-area: aside;
+        /* grid-area: aside; */
         list-style-type: number;
         padding: 20px;
         font-family: "Noto Sans Mono";
@@ -93,7 +136,8 @@
     
     dialog {
         position: relative;
-        width: 500px;
+        height: 450px;
+        width: 250px;
     }
     
     dialog ul {
@@ -115,5 +159,3 @@
         font-size: 20px;
         color: white;
     }
-
-}
